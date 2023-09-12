@@ -6,17 +6,12 @@ async function getItemsById(id: string, page: number, limit: number) {
     headers: {
       accept: "application/json",
       "accept-language": "en-US,en;q=0.6",
-      authorization: "",
       "content-type": "application/json",
       "mythical-environment-id": "hcihi.p.535",
     },
-    referrer: "https://blankos.mythical.market/",
-    referrerPolicy: "strict-origin-when-cross-origin",
     body: `{"query":"\\n  query GetItems(\\n    $filter: SearchFilterInput\\n    $asks: AskFilterInput\\n    $sort: ItemSortInput!\\n    $page: PageOptionsInput!\\n  ) {\\n    items(filter: $filter, asks: $asks, sort: $sort, page: $page) {\\n      returning {\\n        ...ItemView\\n      }\\n      page_summary {\\n        page_item_count: num_in_page\\n        page: page_num\\n        limit: page_size\\n        max_items: total_num\\n        total_pages: total_pages\\n      }\\n    }\\n  }\\n  \\n  fragment ItemView on Item {\\n    game_inventory_id\\n    game_item_type_id\\n    dgood_id\\n    dgood_serial\\n    asks: asks(\\n      filter: { status: { operator: IN, value: [CONFIRMED] } }\\n      page: { page_num: 0, page_size: 10 }\\n    ) {\\n      returning {\\n        id\\n        price\\n        currency\\n        status\\n      }\\n    }\\n    metadata\\n    status\\n    cooldown_timestamp\\n    item_type {\\n      game_item_type_id\\n      item_class\\n      display_name\\n      description\\n      total_minted\\n      total_burned\\n      min_price_usd\\n      max_supply\\n      img_large_url\\n      img_thumb_url\\n      metadata\\n      withdrawable\\n    }\\n  }\\n\\n","variables":{"filter":{"string":[{"name":"game_item_type_id","operator":"EQ","value":["${id}"]}]},"page":{"page_num":${page},"page_size":${limit}},"sort":{"option":"ISSUE_NUMBER","order":"ASC"}}}`,
 
     method: "POST",
-    mode: "cors",
-    credentials: "include",
   });
 
   const item_data = await itemIdReq.json().catch((e) => {

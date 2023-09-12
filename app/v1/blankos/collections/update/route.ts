@@ -8,16 +8,11 @@ async function getItemTypes(page: number, limit: number) {
     headers: {
       accept: "application/json",
       "accept-language": "en-US,en;q=0.6",
-      authorization: "",
       "content-type": "application/json",
       "mythical-environment-id": "hcihi.p.535",
     },
-    referrer: "https://blankos.mythical.market/",
-    referrerPolicy: "strict-origin-when-cross-origin",
     body: `{"query":"\\n  query GetCollections(\\n    $filter: SearchFilterInput\\n    $asks: AskFilterInput\\n    $items: SearchFilterInput\\n    $sort: ItemTypeSortInput!\\n    $page: PageOptionsInput!\\n  ) {\\n    item_types(\\n      filter: $filter\\n      asks: $asks\\n      items: $items\\n      sort: $sort\\n      page: $page\\n    ) {\\n      returning {\\n        ...ItemTypeView\\n      }\\n      page_summary {\\n        page_item_count: num_in_page\\n        page: page_num\\n        limit: page_size\\n        max_items: total_num\\n        total_pages: total_pages\\n      }\\n    }\\n  }\\n  \\n  fragment ItemTypeView on ItemType {\\n    game_item_type_id\\n    display_name\\n    description\\n    item_class\\n    img_thumb_url\\n    img_large_url\\n    metadata\\n    total_minted\\n    total_burned\\n    max_supply\\n    min_price_usd\\n    withdrawable\\n  }\\n\\n","variables":{"filter":{},"page":{"page_num":${page},"page_size":${limit}},"sort":{"option":"DISPLAY_NAME","order":"ASC"}}}`,
     method: "POST",
-    mode: "cors",
-    credentials: "include",
   });
 
   const itemTypes = await itemTypesReq.json().catch((e) => {
