@@ -1,5 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+import { type ServerRuntime } from "next";
 import { NextResponse, ImageResponse } from "next/server";
+
+export const runtime: ServerRuntime = "edge";
 
 async function getItemById(id: string) {
   const itemIdReq = await fetch("https://graphql.mythical.market/graphql", {
