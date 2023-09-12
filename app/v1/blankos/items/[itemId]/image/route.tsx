@@ -12,7 +12,6 @@ async function getItemById(id: string) {
       "content-type": "application/json",
       "mythical-environment-id": "hcihi.p.535",
     },
-    referrer: "https://api.mythicalinsider.com",
     method: "POST",
     body: `{"query":"\\n  query GetItem($game_inventory_id: String!) {\\n    item: item(gameInventoryId: $game_inventory_id) {\\n      ...ItemView\\n    }\\n  }\\n  \\n  fragment ItemView on Item {\\n    game_inventory_id\\n    game_item_type_id\\n    dgood_id\\n    dgood_serial\\n    owned_pending_asks: asks(\\n      filter: {\\n        player_ask: true\\n        status: { operator: IN, value: [PENDING_CONFIRMED] }\\n      }\\n      page: { page_num: 0, page_size: 10 }\\n    ) {\\n      returning {\\n        id\\n        price\\n        currency\\n        status\\n      }\\n    }\\n    asks: asks(\\n      filter: { status: { operator: IN, value: [CONFIRMED] } }\\n      page: { page_num: 0, page_size: 10 }\\n    ) {\\n      returning {\\n        id\\n        price\\n        currency\\n        status\\n      }\\n    }\\n    metadata\\n    status\\n    cooldown_timestamp\\n    item_type {\\n      game_item_type_id\\n      item_class\\n      display_name\\n      description\\n      total_minted\\n      total_burned\\n      max_supply\\n      img_large_url\\n      img_thumb_url\\n      metadata\\n      withdrawable\\n    min_price_usd\\n    }\\n  }\\n\\n","variables":{"game_inventory_id":"${id}"}}`,
   });
@@ -47,24 +46,10 @@ export async function GET(
     }
 
     const inter = await fetch(
-      "https://api.mythicalinsider.com/fonts/Inter-Regular.ttf",
-      {
-        headers: {
-          referrer: "https://api.mythicalinsider.com",
-          referrerPolicy: "strict-origin-when-cross-origin",
-          mode: "cors",
-        },
-      }
+      "https://api.mythicalinsider.com/fonts/Inter-Regular.ttf"
     ).then((res) => res.arrayBuffer());
     const interBold = await fetch(
-      "https://api.mythicalinsider.com/fonts/Inter-Bold.ttf",
-      {
-        headers: {
-          referrer: "https://api.mythicalinsider.com",
-          referrerPolicy: "strict-origin-when-cross-origin",
-          mode: "cors",
-        },
-      }
+      "https://api.mythicalinsider.com/fonts/Inter-Bold.ttf"
     ).then((res) => res.arrayBuffer());
 
     return new ImageResponse(
@@ -86,7 +71,7 @@ export async function GET(
           <div tw="flex flex-col justify-between w-full h-full opacity-20">
             <div tw="flex flex-col p-5">
               <span
-                tw="text-white text-[55px]"
+                tw="text-white text-[55px] font-bold"
                 style={{ display: "block", lineClamp: 1 }}
               >
                 {item.metadata.name}
@@ -98,7 +83,9 @@ export async function GET(
                 {item.metadata.description}
               </span>
             </div>
-            <span tw="text-white text-[100px]">#{item.dgood_serial}</span>
+            <span tw="text-white text-[100px] font-bold">
+              #{item.dgood_serial}
+            </span>
           </div>
           <img
             src={item_img}
