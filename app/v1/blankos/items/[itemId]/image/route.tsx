@@ -51,10 +51,24 @@ export async function GET(
     }
 
     const inter = await fetch(
-      new URL("../../../../../../public/fonts/Inter-Bold.ttf", import.meta.url)
+      "https://api.mythicalinsider.com/fonts/Inter-Regular.ttf",
+      {
+        headers: {
+          referrer: "https://api.mythicalinsider.com",
+          referrerPolicy: "strict-origin-when-cross-origin",
+          mode: "cors",
+        },
+      }
     ).then((res) => res.arrayBuffer());
     const interBold = await fetch(
-      new URL("../../../../../../public/fonts/Inter-Bold.ttf", import.meta.url)
+      "https://api.mythicalinsider.com/fonts/Inter-Bold.ttf",
+      {
+        headers: {
+          referrer: "https://api.mythicalinsider.com",
+          referrerPolicy: "strict-origin-when-cross-origin",
+          mode: "cors",
+        },
+      }
     ).then((res) => res.arrayBuffer());
 
     return new ImageResponse(
