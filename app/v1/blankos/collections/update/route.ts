@@ -3,7 +3,7 @@ import { promises as fs } from "fs";
 import { NextResponse } from "next/server";
 import { env } from "process";
 
-export async function getItemTypes(page: number, limit: number) {
+async function getItemTypes(page: number, limit: number) {
   const itemTypesReq = await fetch("https://graphql.mythical.market/graphql", {
     headers: {
       accept: "application/json",
