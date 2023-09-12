@@ -1,7 +1,7 @@
 import { pageLimitSchema } from "@/lib/validations";
 import { NextResponse } from "next/server";
 
-export async function getItemsById(id: string, page: number, limit: number) {
+async function getItemsById(id: string, page: number, limit: number) {
   const itemIdReq = await fetch("https://graphql.mythical.market/graphql", {
     headers: {
       accept: "application/json",
