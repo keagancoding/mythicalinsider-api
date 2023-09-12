@@ -51,10 +51,10 @@ export async function GET(
     }
 
     const inter = await fetch(
-      new URL("https://api.mythicalinsider.com/fonts/Inter-Bold.ttf")
+      new URL("../../../../../../public/fonts/Inter-Bold.ttf", import.meta.url)
     ).then((res) => res.arrayBuffer());
     const interBold = await fetch(
-      new URL("https://api.mythicalinsider.com/fonts/Inter-Bold.ttf")
+      new URL("../../../../../../public/fonts/Inter-Bold.ttf", import.meta.url)
     ).then((res) => res.arrayBuffer());
 
     return new ImageResponse(
