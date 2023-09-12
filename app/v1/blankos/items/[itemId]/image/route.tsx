@@ -50,27 +50,6 @@ export async function GET(
       throw new Error("Item not found");
     }
 
-    const inter = await fetch(
-      "https://api.mythicalinsider.com/fonts/Inter-Regular.ttf",
-      {
-        headers: {
-          referrer: "https://api.mythicalinsider.com",
-          referrerPolicy: "strict-origin-when-cross-origin",
-          mode: "cors",
-        },
-      }
-    ).then((res) => res.arrayBuffer());
-    const interBold = await fetch(
-      "https://api.mythicalinsider.com/fonts/Inter-Bold.ttf",
-      {
-        headers: {
-          referrer: "https://api.mythicalinsider.com",
-          referrerPolicy: "strict-origin-when-cross-origin",
-          mode: "cors",
-        },
-      }
-    ).then((res) => res.arrayBuffer());
-
     return new ImageResponse(
       (
         <div tw="flex relative w-full h-full bg-red-400">
@@ -134,20 +113,6 @@ export async function GET(
       {
         width: 500,
         height: 500,
-        fonts: [
-          {
-            name: "Inter",
-            data: inter,
-            weight: 400,
-            style: "normal",
-          },
-          {
-            name: "Inter",
-            data: interBold,
-            weight: 700,
-            style: "normal",
-          },
-        ],
       }
     );
   } catch (e) {
