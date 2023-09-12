@@ -1,6 +1,6 @@
 import { collectionsSearchSchema } from "@/lib/validations";
 import { NextResponse } from "next/server";
-import collection from "@/data/collections.json";
+import collection from "@/data/blankos.json";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);

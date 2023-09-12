@@ -71,7 +71,7 @@ export async function GET(req: Request) {
 
   const collections = await getItemTypes(0, 500);
 
-  const file = await fs.open("./data/collections.json", "w");
+  const file = await fs.open("./data/blankos.json", "w");
   await file.write(JSON.stringify(collections));
   await file.close();
 

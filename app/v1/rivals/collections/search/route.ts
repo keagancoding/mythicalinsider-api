@@ -1,14 +1,16 @@
-import { pageLimitSchema } from "@/lib/validations";
+import { collectionsSearchSchema } from "@/lib/validations";
 import { NextResponse } from "next/server";
-import collection from "@/data/blankos.json";
+import collection from "@/data/rivals.json";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
-  const parsedValues = pageLimitSchema.parse(
+  const parsedValues = collectionsSearchSchema.parse(
     Object.fromEntries(searchParams)
   );
-  const { page = 0, limit = 12 } = parsedValues;
-  const collectionData = collection.collections;
+  const { page = 0, limit = 12, query } = parsedValues;
+  const collectionData = collection.collections.filter((item) =>
+    item.name.toLowerCase().includes(query.toLowerCase())
+  );
   const pageStart = page * limit;
   const pageEnd = pageStart + limit;
   const collections = collectionData.slice(pageStart, pageEnd);

@@ -1,0 +1,2324 @@
+{
+  "collections": [
+    {
+      "address": "0xdb91a82568f5f632c7a3009d943791140ccc32f2",
+      "name": "Laken Tomlinson",
+      "description": "OL for the Jets",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Laken_Tomlinson.png",
+      "total_supply": 4591,
+      "transaction_count": 6242
+    },
+    {
+      "address": "0xdaf8c426a608b750615f1951ebb893e2d602a145",
+      "name": "Laken Tomlinson (Blueprint)",
+      "description": "Blueprint for Laken Tomlinson (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Laken_Tomlinson_bp.png",
+      "total_supply": 2000,
+      "transaction_count": 3628
+    },
+    {
+      "address": "0x87be6972d135c8f32a2e22f79152bd38f43e69cc",
+      "name": "Lavonte David",
+      "description": "LB for the Buccaneers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Lavonte_David.png",
+      "total_supply": 1202,
+      "transaction_count": 1773
+    },
+    {
+      "address": "0xbb9edd9fed21b2a55a035bb829e3ae0a3af82537",
+      "name": "Russell Wilson (Blueprint)",
+      "description": "Blueprint for Russell Wilson (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Russell_Wilson_bp.png",
+      "total_supply": 2101,
+      "transaction_count": 3895
+    },
+    {
+      "address": "0x754bcb85e5917ee79aa0c336b602ed5ede167528",
+      "name": "Grover Stewart (Blueprint)",
+      "description": "Blueprint for Grover Stewart (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Grover_Stewart_bp.png",
+      "total_supply": 2204,
+      "transaction_count": 3592
+    },
+    {
+      "address": "0x0f98806be6c308cc68225ac88a4ab1e14abcd6b8",
+      "name": "Desmond King II",
+      "description": "CB for the Texans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Desmond_King_II.png",
+      "total_supply": 4593,
+      "transaction_count": 6304
+    },
+    {
+      "address": "0x4a736ea28eafcdaca2abdbfcb5f60b98b515d455",
+      "name": "Troy Andersen",
+      "description": "LB for the Falcons",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Troy_Andersen.png",
+      "total_supply": 4441,
+      "transaction_count": 5337
+    },
+    {
+      "address": "0x8a36a7ab2f69299632bde82b5f01a3166d222b0b",
+      "name": "James Conner",
+      "description": "RB for the Cardinals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/James_Conner.png",
+      "total_supply": 4596,
+      "transaction_count": 6499
+    },
+    {
+      "address": "0xfb114c94781e9cf5132070adeba2422579cc261b",
+      "name": "Russell Wilson",
+      "description": "QB for the Broncos",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Russell_Wilson.png",
+      "total_supply": 4631,
+      "transaction_count": 6547
+    },
+    {
+      "address": "0xdf94dfd7e1451b4359deaf2906e0cbe136672610",
+      "name": "Desmond King II (Blueprint)",
+      "description": "Blueprint for Desmond King II (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Desmond_King_II_bp.png",
+      "total_supply": 2046,
+      "transaction_count": 3639
+    },
+    {
+      "address": "0x1935688bfb65f3e0fd788d7f2c153066c1df57a7",
+      "name": "Juwan Johnson",
+      "description": "TE for the Saints",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Juwan_Johnson.png",
+      "total_supply": 4612,
+      "transaction_count": 6454
+    },
+    {
+      "address": "0xcd587ec84e2d6d475406c1e68b24940c13d61bcf",
+      "name": "Trevor Lawrence",
+      "description": "QB for the Jaguars",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Trevor_Lawrence.png",
+      "total_supply": 730,
+      "transaction_count": 1251
+    },
+    {
+      "address": "0xf545edd6909bb1a87cca7abee8ce11641722d45f",
+      "name": "James Conner (Blueprint)",
+      "description": "Blueprint for James Conner (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/James_Conner_bp.png",
+      "total_supply": 2035,
+      "transaction_count": 3869
+    },
+    {
+      "address": "0xa79e624cb9a065b1e5037b1693d4af1983b44b10",
+      "name": "Felix Anudike-Uzomah",
+      "description": "DE for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Felix_Anudike-Uzomah.png",
+      "total_supply": 3089,
+      "transaction_count": 5683
+    },
+    {
+      "address": "0x3167916c3c8383333357c67c04493e962eacaa02",
+      "name": "Jaquan Brisker",
+      "description": "SS for the Bears",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Jaquan_Brisker.png",
+      "total_supply": 4494,
+      "transaction_count": 5881
+    },
+    {
+      "address": "0x81c4956483ab7b2db5cd452821a63313929a83e8",
+      "name": "Jaquan Brisker (Blueprint)",
+      "description": "Blueprint for Jaquan Brisker (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Jaquan_Brisker_bp.png",
+      "total_supply": 2253,
+      "transaction_count": 3469
+    },
+    {
+      "address": "0x7fd5600fc84e7baf6ccb0281db180fc2e8ccb9b5",
+      "name": "Xavier Woods",
+      "description": "FS for the Panthers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Xavier_Woods.png",
+      "total_supply": 2594,
+      "transaction_count": 3776
+    },
+    {
+      "address": "0x5903140d5fc051c4eaf573e3ca4c58539f412579",
+      "name": "Chandler Jones",
+      "description": "DE for the Raiders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Chandler_Jones.png",
+      "total_supply": 4504,
+      "transaction_count": 6074
+    },
+    {
+      "address": "0xe6a4551e34ba9a3ee69700d04ba1958d8ed70606",
+      "name": "Grover Stewart",
+      "description": "DT for the Colts",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Grover_Stewart.png",
+      "total_supply": 4475,
+      "transaction_count": 6091
+    },
+    {
+      "address": "0xd589ce4261c397934d91dbb5c133e1b330c6416f",
+      "name": "Trevon Diggs (Blueprint)",
+      "description": "Blueprint for Trevon Diggs (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Trevon_Diggs_bp.png",
+      "total_supply": 95,
+      "transaction_count": 194
+    },
+    {
+      "address": "0xc5b8988cfcdfc2df7e75cfcb0600ca797948f74e",
+      "name": "David Montgomery",
+      "description": "RB for the Lions",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/David_Montgomery.png",
+      "total_supply": 2500,
+      "transaction_count": 3877
+    },
+    {
+      "address": "0x21c8589faa42e73d018f4ddb44b9b2c56f217b01",
+      "name": "Bryce Young",
+      "description": "QB for the Panthers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Bryce_Young.png",
+      "total_supply": 222,
+      "transaction_count": 995
+    },
+    {
+      "address": "0xb337ed65f8ded9fe77f9a250bef3f8499c9d6314",
+      "name": "Jack Campbell",
+      "description": "LB for the Lions",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Jack_Campbell.png",
+      "total_supply": 971,
+      "transaction_count": 2741
+    },
+    {
+      "address": "0x406ac53e9bfe804e2944611db67bb925d829346a",
+      "name": "Derek Carr",
+      "description": "QB for the Saints",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Derek_Carr.png",
+      "total_supply": 2443,
+      "transaction_count": 3840
+    },
+    {
+      "address": "0x23521e52477e9c8407167b9eb959fb0663894836",
+      "name": "Tyler Higbee",
+      "description": "TE for the Rams",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Tyler_Higbee.png",
+      "total_supply": 4476,
+      "transaction_count": 6183
+    },
+    {
+      "address": "0x402da711c81c4779057eac83eee041aee4f253a4",
+      "name": "Maxx Crosby",
+      "description": "DE for the Raiders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Maxx_Crosby.png",
+      "total_supply": 1461,
+      "transaction_count": 2438
+    },
+    {
+      "address": "0xfc3799270d43043f80ab6bfd6cbc22d6cffa2564",
+      "name": "Matt Milano",
+      "description": "LB for the Bills",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Matt_Milano.png",
+      "total_supply": 229,
+      "transaction_count": 397
+    },
+    {
+      "address": "0x1d595509607f3bbc96a6b25977712ec2d2710514",
+      "name": "Rhamondre Stevenson",
+      "description": "RB for the Patriots",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Rhamondre_Stevenson.png",
+      "total_supply": 1870,
+      "transaction_count": 3420
+    },
+    {
+      "address": "0xffa98295ed7f53a32f2688146fcc89c923af0d90",
+      "name": "Juwan Johnson (Blueprint)",
+      "description": "Blueprint for Juwan Johnson (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Juwan_Johnson_bp.png",
+      "total_supply": 2060,
+      "transaction_count": 3829
+    },
+    {
+      "address": "0xdac69e905aac3fb77bc41b19a5970b4a2eb32b60",
+      "name": "Trevon Diggs",
+      "description": "CB for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Trevon_Diggs_luminous.png",
+      "total_supply": 22,
+      "transaction_count": 31
+    },
+    {
+      "address": "0xfb5e5de37b641f6621538ffed4750fdac4c4b66a",
+      "name": "Allen Robinson II",
+      "description": "WR for the Steelers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Allen_Robinson_II.png",
+      "total_supply": 2483,
+      "transaction_count": 3769
+    },
+    {
+      "address": "0x4ee9ac2278f2e63907353f415a8be3cdc03cf513",
+      "name": "Najee Harris",
+      "description": "RB for the Steelers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Najee_Harris.png",
+      "total_supply": 1242,
+      "transaction_count": 1856
+    },
+    {
+      "address": "0x1955c62f4e7ca434fdb91b6e81c9ea0847910b52",
+      "name": "Troy Andersen (Blueprint)",
+      "description": "Blueprint for Troy Andersen (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Troy_Andersen_bp.png",
+      "total_supply": 2554,
+      "transaction_count": 3290
+    },
+    {
+      "address": "0xbb4cbce866925467e63a5b921ec86ff69a59b772",
+      "name": "Tyler Higbee (Blueprint)",
+      "description": "Blueprint for Tyler Higbee (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Tyler_Higbee_bp.png",
+      "total_supply": 1978,
+      "transaction_count": 3614
+    },
+    {
+      "address": "0x1aacc7fb2c7a28bd0bef7ab2ccc2577f97327415",
+      "name": "Aidan Hutchinson",
+      "description": "DE for the Lions",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Aidan_Hutchinson.png",
+      "total_supply": 1267,
+      "transaction_count": 1830
+    },
+    {
+      "address": "0x53dc1c07035a389ae758aed9b5c1e2ea2036dcc2",
+      "name": "Aidan Hutchinson (Blueprint)",
+      "description": "Blueprint for Aidan Hutchinson (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Aidan_Hutchinson_bp.png",
+      "total_supply": 535,
+      "transaction_count": 1022
+    },
+    {
+      "address": "0x72ea238ccea64b9c91c4035f622dcc7fd7e65bf8",
+      "name": "Drue Tranquill",
+      "description": "LB for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Drue_Tranquill.png",
+      "total_supply": 2820,
+      "transaction_count": 4403
+    },
+    {
+      "address": "0x31587bc029a0731c6f6fb70fddcb1b2fe7d8da43",
+      "name": "Charles Leno Jr",
+      "description": "OL for the Commanders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Charles_Leno_Jr.png",
+      "total_supply": 1230,
+      "transaction_count": 1774
+    },
+    {
+      "address": "0xfd19102095360d49b2eeeab10fe007233fb8e9d4",
+      "name": "Charles Leno Jr (Blueprint)",
+      "description": "Blueprint for Charles Leno Jr (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Charles_Leno_Jr_bp.png",
+      "total_supply": 562,
+      "transaction_count": 1074
+    },
+    {
+      "address": "0x208a2519ed592f595d5c71b9229b85e7ec847d63",
+      "name": "Za'Darius Smith",
+      "description": "DE for the Browns",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Za'Darius_Smith.png",
+      "total_supply": 1172,
+      "transaction_count": 2238
+    },
+    {
+      "address": "0x647789c54c4ef2403ffe916ac7f2a7884af37635",
+      "name": "JuJu Smith-Schuster",
+      "description": "WR for the Patriots",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/JuJu_Smith-Schuster.png",
+      "total_supply": 1257,
+      "transaction_count": 1806
+    },
+    {
+      "address": "0x904b61ad5d2e17d0572d4301ec75aa3a8659e545",
+      "name": "Jaylen Waddle",
+      "description": "WR for the Dolphins",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Jaylen_Waddle.png",
+      "total_supply": 1335,
+      "transaction_count": 1984
+    },
+    {
+      "address": "0x7dd0087352288cfe9640dd040cfdde0f099e2d1d",
+      "name": "Paris Johnson Jr",
+      "description": "OL for the Cardinals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Paris_Johnson_Jr.png",
+      "total_supply": 216,
+      "transaction_count": 789
+    },
+    {
+      "address": "0xc914fb0353e47fa8b3d6a3986d2498489b20dec4",
+      "name": "Peter Skoronski",
+      "description": "OL for the Titans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Peter_Skoronski.png",
+      "total_supply": 972,
+      "transaction_count": 1932
+    },
+    {
+      "address": "0x9f5f64a7d6a0ec29f713b098b2625b1b43646d87",
+      "name": "Jimmy Garoppolo",
+      "description": "QB for the Raiders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jimmy_Garoppolo.png",
+      "total_supply": 2839,
+      "transaction_count": 4632
+    },
+    {
+      "address": "0xdf91dd0321afe89e84923e23ebbd1448d7a970b3",
+      "name": "CeeDee Lamb",
+      "description": "WR for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/CeeDee_Lamb.png",
+      "total_supply": 1837,
+      "transaction_count": 3186
+    },
+    {
+      "address": "0xe8e8ab2f47a6cfd58fa926538f12182750002eef",
+      "name": "Amari Cooper",
+      "description": "WR for the Browns",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Amari_Cooper.png",
+      "total_supply": 4686,
+      "transaction_count": 6577
+    },
+    {
+      "address": "0x03ef385765a48ea899e724b2020ad560aa90fff5",
+      "name": "Amari Cooper (Blueprint)",
+      "description": "Blueprint for Amari Cooper (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Amari_Cooper_bp.png",
+      "total_supply": 1903,
+      "transaction_count": 3981
+    },
+    {
+      "address": "0xe185a30a540ef28a98542a5ebe60a334023a9f04",
+      "name": "Cobie Durant",
+      "description": "CB for the Rams",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Cobie_Durant.png",
+      "total_supply": 1839,
+      "transaction_count": 3308
+    },
+    {
+      "address": "0x2d2b910552a3a40df0eb45916f3abcc0d00a5776",
+      "name": "Will McDonald IV",
+      "description": "DE for the Jets",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Will_McDonald_IV.png",
+      "total_supply": 962,
+      "transaction_count": 2171
+    },
+    {
+      "address": "0xaa5596ad079ab51b14fb36beaf13c4ac8e33525b",
+      "name": "Latavius Murray",
+      "description": "RB for the Bills",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Latavius_Murray.png",
+      "total_supply": 2784,
+      "transaction_count": 4439
+    },
+    {
+      "address": "0xf144463e4748bf160f606f12eba96c3385ce7ad2",
+      "name": "Jessie Bates III",
+      "description": "FS for the Falcons",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jessie_Bates_III_luminous.png",
+      "total_supply": 22,
+      "transaction_count": 69
+    },
+    {
+      "address": "0x8a8a6199bc0ad0a740e91cdcb30e932b7e728b75",
+      "name": "DeForest Buckner",
+      "description": "DT for the Colts",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/DeForest_Buckner.png",
+      "total_supply": 903,
+      "transaction_count": 1909
+    },
+    {
+      "address": "0xd13d03dd961b9ae93d99fdd51e358e806b489c9b",
+      "name": "Trevon Diggs",
+      "description": "CB for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Trevon_Diggs.png",
+      "total_supply": 208,
+      "transaction_count": 355
+    },
+    {
+      "address": "0xffdcf7ced51423265ef243cd9cbeaea4ce2a4544",
+      "name": "Ezekiel Elliott",
+      "description": "RB for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Ezekiel_Elliott.png",
+      "total_supply": 227,
+      "transaction_count": 586
+    },
+    {
+      "address": "0x65911a02c2062ecf97aa28dff3e4a9e7103f0f60",
+      "name": "Jalen Pitre",
+      "description": "SS for the Texans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Jalen_Pitre.png",
+      "total_supply": 1835,
+      "transaction_count": 3416
+    },
+    {
+      "address": "0x853c81b63ebe6d0f1ca567166dda78617b7b1697",
+      "name": "D.J. Moore",
+      "description": "WR for the Bears",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/D.J._Moore.png",
+      "total_supply": 190,
+      "transaction_count": 583
+    },
+    {
+      "address": "0x3476b9088f2e95ae7b481b344b6b67bc1cffe085",
+      "name": "Jaylen Waddle (Blueprint)",
+      "description": "Blueprint for Jaylen Waddle (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Jaylen_Waddle_bp.png",
+      "total_supply": 562,
+      "transaction_count": 1159
+    },
+    {
+      "address": "0x2915aac2ce30ad9bf8fbf033a2ab4e9acbf88487",
+      "name": "Mike McGlinchey (Blueprint)",
+      "description": "Blueprint for Mike McGlinchey (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Mike_McGlinchey_bp.png",
+      "total_supply": 227,
+      "transaction_count": 693
+    },
+    {
+      "address": "0xb32f1d0443fb4b436f8c813633dcf47c51dfdb76",
+      "name": "Quandre Diggs",
+      "description": "FS for the Seahawks",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Quandre_Diggs.png",
+      "total_supply": 1221,
+      "transaction_count": 1789
+    },
+    {
+      "address": "0x19295702d17ebfa2133f2e83b2d1813798fd8c9d",
+      "name": "Ben Powers (Blueprint)",
+      "description": "Blueprint for Ben Powers (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Ben_Powers_bp.png",
+      "total_supply": 232,
+      "transaction_count": 715
+    },
+    {
+      "address": "0xec3f2b2887f0d7cbbf2a891e938cc5cb14b1ba46",
+      "name": "D'Andre Swift",
+      "description": "RB for the Lions",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/D'Andre_Swift.png",
+      "total_supply": 880,
+      "transaction_count": 2027
+    },
+    {
+      "address": "0x323aa686e9ba8807a056d6aa0c4ac062494f454b",
+      "name": "Harrison Butker",
+      "description": "K for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Harrison_Butker.png",
+      "total_supply": 1837,
+      "transaction_count": 3086
+    },
+    {
+      "address": "0x8219ec4d7c60053a9f575ff6544df6050037bbc5",
+      "name": "Zane Gonzalez",
+      "description": "K for the 49ers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Zane_Gonzalez.png",
+      "total_supply": 2779,
+      "transaction_count": 4065
+    },
+    {
+      "address": "0x79696c7b5e78a3a837ce6f055b1bf13c91a90da4",
+      "name": "Trevor Lawrence (Blueprint)",
+      "description": "Blueprint for Trevor Lawrence (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Trevor_Lawrence_bp.png",
+      "total_supply": 86,
+      "transaction_count": 168
+    },
+    {
+      "address": "0x31ef1117f46540c9d2cfaa5b917de9359787f8e8",
+      "name": "Chandler Jones (Blueprint)",
+      "description": "Blueprint for Chandler Jones (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Chandler_Jones_bp.png",
+      "total_supply": 2088,
+      "transaction_count": 3560
+    },
+    {
+      "address": "0xcd0edae324875f7ce5fde6d07f61a92a4aef2f13",
+      "name": "Tua Tagovailoa",
+      "description": "QB for the Dolphins",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Tua_Tagovailoa.png",
+      "total_supply": 1816,
+      "transaction_count": 3490
+    },
+    {
+      "address": "0xd0ce86be630ce513fd47bab92f2fc801bd32e95b",
+      "name": "Mike McGlinchey",
+      "description": "OL for the Broncos",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Mike_McGlinchey.png",
+      "total_supply": 1136,
+      "transaction_count": 1951
+    },
+    {
+      "address": "0xd21e4aebb5cc6b754553ce31978de7e856056d96",
+      "name": "Deonte Banks",
+      "description": "CB for the Giants",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Deonte_Banks.png",
+      "total_supply": 2938,
+      "transaction_count": 5300
+    },
+    {
+      "address": "0x938fdf5e2cdba8224ce69b933fcb0fcf99629e9f",
+      "name": "Najee Harris (Blueprint)",
+      "description": "Blueprint for Najee Harris (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Najee_Harris_bp.png",
+      "total_supply": 477,
+      "transaction_count": 944
+    },
+    {
+      "address": "0x30206762dfa8c5ee21e37a9ce449f2b6012658d7",
+      "name": "Austin Ekeler",
+      "description": "RB for the Chargers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Austin_Ekeler.png",
+      "total_supply": 310,
+      "transaction_count": 2423
+    },
+    {
+      "address": "0x6519e978d9abcb6bfdb2c2290c8cf0a260c3d439",
+      "name": "Broderick Jones",
+      "description": "OL for the Steelers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Broderick_Jones.png",
+      "total_supply": 982,
+      "transaction_count": 2081
+    },
+    {
+      "address": "0x87ba67d72471f99506fe0eae000d9130f8f4725a",
+      "name": "Tyler Bass",
+      "description": "K for the Bills",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Tyler_Bass.png",
+      "total_supply": 250,
+      "transaction_count": 671
+    },
+    {
+      "address": "0x1ad4c9fa173a7df69ecfaee2c94cc064d1d0308a",
+      "name": "Xavier Woods (Blueprint)",
+      "description": "Blueprint for Xavier Woods (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Xavier_Woods_bp.png",
+      "total_supply": 561,
+      "transaction_count": 1010
+    },
+    {
+      "address": "0x8f5fa28aeaa145c9cfd9b0f1342b538be46dc72f",
+      "name": "David Long Jr",
+      "description": "LB for the Dolphins",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/David_Long_Jr.png",
+      "total_supply": 2500,
+      "transaction_count": 3966
+    },
+    {
+      "address": "0xade9bcdb50e0b395e9c87171c34480066d67bf9a",
+      "name": "Emmanuel Forbes",
+      "description": "CB for the Commanders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Emmanuel_Forbes.png",
+      "total_supply": 941,
+      "transaction_count": 2400
+    },
+    {
+      "address": "0x8d83869fd592bf080867e21c0a711ad12bd84a42",
+      "name": "Justin Fields (Blueprint)",
+      "description": "Blueprint for Justin Fields (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Justin_Fields_bp.png",
+      "total_supply": 136,
+      "transaction_count": 1150
+    },
+    {
+      "address": "0x2aa216ff45b4f6dece5ff11313b5873eb8531228",
+      "name": "Amani Hooker",
+      "description": "SS for the Titans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Amani_Hooker.png",
+      "total_supply": 1237,
+      "transaction_count": 1727
+    },
+    {
+      "address": "0x981d09d09b828bc88c99bae8d05c59d31e10c800",
+      "name": "Amani Hooker (Blueprint)",
+      "description": "Blueprint for Amani Hooker (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Amani_Hooker_bp.png",
+      "total_supply": 544,
+      "transaction_count": 1009
+    },
+    {
+      "address": "0xf0f351ff82fdc39aaa1511de4694586892174740",
+      "name": "Dalvin Tomlinson",
+      "description": "DT for the Browns",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Dalvin_Tomlinson.png",
+      "total_supply": 2546,
+      "transaction_count": 3846
+    },
+    {
+      "address": "0xb121199c16017f6de42cefb407e72b94418d1fe3",
+      "name": "Dalton Schultz (Blueprint)",
+      "description": "Blueprint for Dalton Schultz (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Dalton_Schultz_bp.png",
+      "total_supply": 200,
+      "transaction_count": 661
+    },
+    {
+      "address": "0x34da1f6a2e081dd1b39537470f6acc7132c158e3",
+      "name": "Alijah Vera-Tucker",
+      "description": "OL for the Jets",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Alijah_Vera-Tucker.png",
+      "total_supply": 317,
+      "transaction_count": 505
+    },
+    {
+      "address": "0xe91402c53a7bc60f54d3f2fd80eeeeb1788497d3",
+      "name": "Brandin Cooks",
+      "description": "WR for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Brandin_Cooks.png",
+      "total_supply": 2500,
+      "transaction_count": 4082
+    },
+    {
+      "address": "0xe8653c7c29ba0c1302b1574d9ab1ab990ad29ba7",
+      "name": "Cameron Sutton (Blueprint)",
+      "description": "Blueprint for Cameron Sutton (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Cameron_Sutton_bp.png",
+      "total_supply": 186,
+      "transaction_count": 864
+    },
+    {
+      "address": "0x8097e20da9517d2b09e050fcbeb32f8aa3f9a8db",
+      "name": "Talanoa Hufanga",
+      "description": "SS for the 49ers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Talanoa_Hufanga.png",
+      "total_supply": 212,
+      "transaction_count": 336
+    },
+    {
+      "address": "0x6f0ea0f8286b7cea6d5fd144346b30b5a2095ce5",
+      "name": "Jaire Alexander",
+      "description": "CB for the Packers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Jaire_Alexander.png",
+      "total_supply": 1203,
+      "transaction_count": 1781
+    },
+    {
+      "address": "0x2521759555216bde04af3c5bd893b689f3a27fe7",
+      "name": "Jaire Alexander (Blueprint)",
+      "description": "Blueprint for Jaire Alexander (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Jaire_Alexander_bp.png",
+      "total_supply": 509,
+      "transaction_count": 1042
+    },
+    {
+      "address": "0xe73f099d177567903e3a45fc14273150bbedaa7a",
+      "name": "Calais Campbell",
+      "description": "DE for the Falcons",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Calais_Campbell.png",
+      "total_supply": 221,
+      "transaction_count": 665
+    },
+    {
+      "address": "0x94d4672b2f9da480f86d0e9eb567fbff400f777d",
+      "name": "Joe Mixon",
+      "description": "RB for the Bengals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Joe_Mixon.png",
+      "total_supply": 201,
+      "transaction_count": 374
+    },
+    {
+      "address": "0xe8dcd7242530458e6063f6e80f170700bada22cf",
+      "name": "Bobby Wagner",
+      "description": "LB for the Seahawks",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Bobby_Wagner.png",
+      "total_supply": 50,
+      "transaction_count": 233
+    },
+    {
+      "address": "0x22cc89f6f361d3fdb20a202347df510f52ad3b4c",
+      "name": "Zay Flowers",
+      "description": "WR for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Zay_Flowers.png",
+      "total_supply": 3137,
+      "transaction_count": 6386
+    },
+    {
+      "address": "0x81a4ec22f02192389ae56f14ceb306d32202bab3",
+      "name": "K'Von Wallace",
+      "description": "SS for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/K'Von_Wallace.png",
+      "total_supply": 358,
+      "transaction_count": 1102
+    },
+    {
+      "address": "0x18e244bdbe527e435a1858dc72eea871cab73c96",
+      "name": "T.J. Hockenson",
+      "description": "TE for the Vikings",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/T.J._Hockenson.png",
+      "total_supply": 217,
+      "transaction_count": 322
+    },
+    {
+      "address": "0x2df976d903935f94b9954ebba6767da1a9fdec70",
+      "name": "Olamide Zaccheaus",
+      "description": "WR for the Falcons",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Olamide_Zaccheaus.png",
+      "total_supply": 306,
+      "transaction_count": 496
+    },
+    {
+      "address": "0x995e0a9b85faabcf6e1fd146ad32891076a244c5",
+      "name": "Lavonte David (Blueprint)",
+      "description": "Blueprint for Lavonte David (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Lavonte_David_bp.png",
+      "total_supply": 530,
+      "transaction_count": 974
+    },
+    {
+      "address": "0xad36fe167c3540e2696687dc20a13c2335d0d6c2",
+      "name": "Geno Smith",
+      "description": "NFL 2022 - Comeback Player of the Year",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Geno_Smith.png",
+      "total_supply": 250,
+      "transaction_count": 734
+    },
+    {
+      "address": "0x5cb1e46b65c3714c98705b0cab8d77d315354b11",
+      "name": "Alex Singleton",
+      "description": "LB for the Broncos",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Alex_Singleton.png",
+      "total_supply": 895,
+      "transaction_count": 2148
+    },
+    {
+      "address": "0xdad15807359b449c80bc85b1ec13ed5b4addb4b4",
+      "name": "Bengals #1",
+      "description": "Record your fandom on the blockchain with limited edition Bengals NFTs! Rarity League is a collection of limited edition, uniquely generated, 3D art helmet NFTs under official license from the NFL. Rarity League NFTs have individual designs centered around your favorite NFL teams, with special helmet graphics, backgrounds, and animations. The Rarity League collection will be adopted by NFL Rivals to provide owners access to special events, in-game rewards, and other unique features.",
+      "image": "https://presalemetadata.mythical.market/rarityleague/3-1.png",
+      "total_supply": 887,
+      "transaction_count": 1779
+    },
+    {
+      "address": "0xec5122c1031a5e0b23d23df00f52f3d9ae809528",
+      "name": "Jahmyr Gibbs",
+      "description": "RB for the Lions",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Jahmyr_Gibbs.png",
+      "total_supply": 969,
+      "transaction_count": 2715
+    },
+    {
+      "address": "0xe9296e2dc51f501a4b361bfcbee75aa0631bb3ff",
+      "name": "Marcus Davenport",
+      "description": "DE for the Vikings",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Marcus_Davenport.png",
+      "total_supply": 1213,
+      "transaction_count": 2250
+    },
+    {
+      "address": "0x5c821d0b53877158358ae6d5d9cb92df9d5b9a90",
+      "name": "Jamel Dean",
+      "description": "CB for the Buccaneers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Jamel_Dean.png",
+      "total_supply": 1896,
+      "transaction_count": 3390
+    },
+    {
+      "address": "0xf08de8d7932722f59f0a47f3765d816e10896877",
+      "name": "Trent Williams",
+      "description": "OL for the 49ers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Trent_Williams.png",
+      "total_supply": 952,
+      "transaction_count": 2045
+    },
+    {
+      "address": "0x00af729fe3b1a24dd2f65993d8ab3116a5a57b81",
+      "name": "Ethan Pocic",
+      "description": "OL for the Browns",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Ethan_Pocic.png",
+      "total_supply": 1847,
+      "transaction_count": 3107
+    },
+    {
+      "address": "0x5bcda52da21edaf46e054b03060bf1927b3ed935",
+      "name": "Cameron Heyward",
+      "description": "DT for the Steelers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Cameron_Heyward.png",
+      "total_supply": 260,
+      "transaction_count": 561
+    },
+    {
+      "address": "0x293b32f5b5d24d6eecee326e50fd4d2145ec0c20",
+      "name": "Cameron Heyward (Blueprint)",
+      "description": "Blueprint for Cameron Heyward (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Cameron_Heyward_bp.png",
+      "total_supply": 41,
+      "transaction_count": 524
+    },
+    {
+      "address": "0x40cf559b6fce376c382589bbf1e4c4c9cb561c31",
+      "name": "Khalil Mack",
+      "description": "DE for the Chargers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Khalil_Mack.png",
+      "total_supply": 220,
+      "transaction_count": 385
+    },
+    {
+      "address": "0xa24a52e9c766fabbdafb1b59345e3aad26150b50",
+      "name": "Khalil Mack (Blueprint)",
+      "description": "Blueprint for Khalil Mack (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Khalil_Mack_bp.png",
+      "total_supply": 105,
+      "transaction_count": 207
+    },
+    {
+      "address": "0xdeae55c9e319995251108a9a5656d113344304f4",
+      "name": "Bijan Robinson",
+      "description": "RB for the Falcons",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Bijan_Robinson.png",
+      "total_supply": 215,
+      "transaction_count": 926
+    },
+    {
+      "address": "0x5d6e2ea891acf827586c9fff2270e7a5cbf09c52",
+      "name": "Tyrann Mathieu",
+      "description": "SS for the Cardinals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Tyrann_Mathieu.png",
+      "total_supply": 100,
+      "transaction_count": 710
+    },
+    {
+      "address": "0x31a01c36e8ff5eb98ce89209ab5087906ea0ff5d",
+      "name": "Lamar Jackson",
+      "description": "QB for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Lamar_Jackson.png",
+      "total_supply": 224,
+      "transaction_count": 396
+    },
+    {
+      "address": "0xe9bd055f80c43ee80011cdf7636e028813a0e5f9",
+      "name": "Lamar Jackson (Blueprint)",
+      "description": "Blueprint for Lamar Jackson (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Lamar_Jackson_bp.png",
+      "total_supply": 94,
+      "transaction_count": 202
+    },
+    {
+      "address": "0x2c4418d8540b0174f5dfd315273a8b5c5797ce08",
+      "name": "De'Vondre Campbell",
+      "description": "LB for the Packers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/De'Vondre_Campbell.png",
+      "total_supply": 650,
+      "transaction_count": 1387
+    },
+    {
+      "address": "0x26d0abe4ce77bb086d2dea29f1284dc29936021e",
+      "name": "De'Vondre Campbell (Blueprint)",
+      "description": "Blueprint for De'Vondre Campbell (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/De'Vondre_Campbell_bp.png",
+      "total_supply": 135,
+      "transaction_count": 1141
+    },
+    {
+      "address": "0xe136d9e55165837006d2bc697b15883903d84670",
+      "name": "Jakobi Meyers",
+      "description": "WR for the Raiders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jakobi_Meyers.png",
+      "total_supply": 1218,
+      "transaction_count": 2244
+    },
+    {
+      "address": "0x0bb4a2251411c7766a7dcdcd07335b23ae0c8674",
+      "name": "Cameron Sutton",
+      "description": "CB for the Lions",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Cameron_Sutton.png",
+      "total_supply": 1318,
+      "transaction_count": 2608
+    },
+    {
+      "address": "0x385d73ef6965e5f08c8c08167b3673aed9b4b9bb",
+      "name": "Trey Hendrickson",
+      "description": "DE for the Bengals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Trey_Hendrickson.png",
+      "total_supply": 1915,
+      "transaction_count": 3313
+    },
+    {
+      "address": "0x5a7321f5ca27d8fbaa6d6aabc463f5da3e12814c",
+      "name": "Zach Allen",
+      "description": "DE for the Broncos",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Zach_Allen.png",
+      "total_supply": 2514,
+      "transaction_count": 3837
+    },
+    {
+      "address": "0x0ff5a1a2a082996f9546207810fefd2d3d519196",
+      "name": "T.J. Hockenson (Blueprint)",
+      "description": "Blueprint for T.J. Hockenson (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/T.J._Hockenson_bp.png",
+      "total_supply": 100,
+      "transaction_count": 191
+    },
+    {
+      "address": "0xb6120c241487873031c90f81241584896b8d3284",
+      "name": "Terrell Edmunds",
+      "description": "SS for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Terrell_Edmunds.png",
+      "total_supply": 2583,
+      "transaction_count": 4118
+    },
+    {
+      "address": "0xf69fde546b1492c17f81594e2fd49e85b0997822",
+      "name": "Jordan Mailata",
+      "description": "OL for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Jordan_Mailata.png",
+      "total_supply": 1834,
+      "transaction_count": 3092
+    },
+    {
+      "address": "0xce4ed4ef3c0de7497066e6a608fd5b3da3185157",
+      "name": "Zack Martin",
+      "description": "OL for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Zack_Martin.png",
+      "total_supply": 182,
+      "transaction_count": 582
+    },
+    {
+      "address": "0x2ca685f5d3aa964c2c4aa1a62b081df5e7a248b7",
+      "name": "Jordan Addison",
+      "description": "WR for the Vikings",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Jordan_Addison.png",
+      "total_supply": 3065,
+      "transaction_count": 5377
+    },
+    {
+      "address": "0xfd0d6b9e60d773250f785d9f89903d9cfda1d333",
+      "name": "Amik Robertson",
+      "description": "CB for the Raiders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Amik_Robertson.png",
+      "total_supply": 296,
+      "transaction_count": 538
+    },
+    {
+      "address": "0x663b8851161109a7bf8d3e72a9eb7ea64b1ec6fa",
+      "name": "Quandre Diggs (Blueprint)",
+      "description": "Blueprint for Quandre Diggs (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Quandre_Diggs_bp.png",
+      "total_supply": 544,
+      "transaction_count": 986
+    },
+    {
+      "address": "0xa511f10b171fc704f67cc151b28a231f18b0d561",
+      "name": "Dexter Lawrence II",
+      "description": "DT for the Giants",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Dexter_Lawrence_II.png",
+      "total_supply": 196,
+      "transaction_count": 298
+    },
+    {
+      "address": "0xcf30178fc402363fee300f53d43f9b8e4f2a928a",
+      "name": "Bryan Bresee",
+      "description": "DT for the Saints",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Bryan_Bresee.png",
+      "total_supply": 3060,
+      "transaction_count": 5729
+    },
+    {
+      "address": "0xb7bc1244a4620933830a309b47322da07c19a7e9",
+      "name": "A.J. Brown",
+      "description": "WR for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/A.J._Brown.png",
+      "total_supply": 238,
+      "transaction_count": 367
+    },
+    {
+      "address": "0x3f49b4ef8cb6ea5305eeb01f28fa4f04029f0dea",
+      "name": "A.J. Brown (Blueprint)",
+      "description": "Blueprint for A.J. Brown (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/A.J._Brown_bp.png",
+      "total_supply": 96,
+      "transaction_count": 247
+    },
+    {
+      "address": "0xda8a44d2d29fcacf4afdaca0bcff7d7781c05490",
+      "name": "Javon Hargrave",
+      "description": "DT for the 49ers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Javon_Hargrave.png",
+      "total_supply": 229,
+      "transaction_count": 738
+    },
+    {
+      "address": "0xb579e3e02ff4932b60172c1dba551354c6ad3086",
+      "name": "Jawaan Taylor",
+      "description": "OL for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jawaan_Taylor.png",
+      "total_supply": 1183,
+      "transaction_count": 2066
+    },
+    {
+      "address": "0xebb36720bff943e830c51fb76c7f37bf0365172a",
+      "name": "Shaq Mason",
+      "description": "OL for the Texans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Shaq_Mason.png",
+      "total_supply": 239,
+      "transaction_count": 671
+    },
+    {
+      "address": "0xcbb3172edb3722d123a60c86fa5a6dab9eb857fd",
+      "name": "Tyree Wilson",
+      "description": "DE for the Raiders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Tyree_Wilson.png",
+      "total_supply": 208,
+      "transaction_count": 1062
+    },
+    {
+      "address": "0x0dad6bfd577073f33b90dfc79687809622526ee0",
+      "name": "Kayvon Thibodeaux",
+      "description": "DE for the Giants",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Kayvon_Thibodeaux.png",
+      "total_supply": 838,
+      "transaction_count": 1851
+    },
+    {
+      "address": "0xed060ead2310501fee964cc4c0ba3eff4d57b993",
+      "name": "Rayshawn Jenkins",
+      "description": "FS for the Jaguars",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Rayshawn_Jenkins.png",
+      "total_supply": 1850,
+      "transaction_count": 3705
+    },
+    {
+      "address": "0x64a95254b965b4b30f0f8ad0ec4532fba584d7c1",
+      "name": "Myles Murphy",
+      "description": "DE for the Bengals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Myles_Murphy.png",
+      "total_supply": 3086,
+      "transaction_count": 5539
+    },
+    {
+      "address": "0x0135fe655f976e159942387138c76b0732cd03a6",
+      "name": "Javon Hargrave",
+      "description": "DT for the 49ers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Javon_Hargrave_luminous.png",
+      "total_supply": 25,
+      "transaction_count": 89
+    },
+    {
+      "address": "0xe84b21c377b936098df911a010af524e71d98808",
+      "name": "Zach Allen (Blueprint)",
+      "description": "Blueprint for Zach Allen (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Zach_Allen_bp.png",
+      "total_supply": 754,
+      "transaction_count": 1534
+    },
+    {
+      "address": "0x1fb225b1c4274f282754ada724f2f9f178fec631",
+      "name": "JuJu Smith-Schuster (Blueprint)",
+      "description": "Blueprint for JuJu Smith-Schuster (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/JuJu_Smith-Schuster_bp.png",
+      "total_supply": 515,
+      "transaction_count": 1051
+    },
+    {
+      "address": "0xf43d8d3d761edff1d0dc71a2a0182833a3efb65c",
+      "name": "Jordan Davis",
+      "description": "DT for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Jordan_Davis.png",
+      "total_supply": 217,
+      "transaction_count": 330
+    },
+    {
+      "address": "0xba605d9466962513187cbe5db0bcb0b1529c5707",
+      "name": "Allen Robinson II (Blueprint)",
+      "description": "Blueprint for Allen Robinson II (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Allen_Robinson_II_bp.png",
+      "total_supply": 685,
+      "transaction_count": 1589
+    },
+    {
+      "address": "0x77aa97769bbe461138a8d37cd50760070b12fcef",
+      "name": "Joe Mixon (Blueprint)",
+      "description": "Blueprint for Joe Mixon (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Joe_Mixon_bp.png",
+      "total_supply": 96,
+      "transaction_count": 184
+    },
+    {
+      "address": "0x521bbc1666382aced282a493b12dae9e63249a29",
+      "name": "Quentin Johnston",
+      "description": "WR for the Chargers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Quentin_Johnston.png",
+      "total_supply": 2975,
+      "transaction_count": 5118
+    },
+    {
+      "address": "0xcb7fc666f6842665d6eb44122957556d2afb945c",
+      "name": "Darrick Forrest",
+      "description": "FS for the Commanders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Darrick_Forrest.png",
+      "total_supply": 168,
+      "transaction_count": 483
+    },
+    {
+      "address": "0x6f61136de439c0f60a1d3ed4915eb7561958da33",
+      "name": "Dalton Schultz",
+      "description": "TE for the Texans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Dalton_Schultz.png",
+      "total_supply": 1308,
+      "transaction_count": 2456
+    },
+    {
+      "address": "0xf77ae479104066523e909754d9113a70f6bec976",
+      "name": "Darnell Wright",
+      "description": "OL for the Bears",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Darnell_Wright.png",
+      "total_supply": 972,
+      "transaction_count": 2012
+    },
+    {
+      "address": "0xd0d8ddf288b4344b9f180387a44dff1400d78ade",
+      "name": "Pat Freiermuth",
+      "description": "TE for the Steelers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Pat_Freiermuth.png",
+      "total_supply": 115,
+      "transaction_count": 429
+    },
+    {
+      "address": "0x90847ba414503c7afd4102ace31e5760723c339a",
+      "name": "Khalil Herbert",
+      "description": "RB for the Bears",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Khalil_Herbert.png",
+      "total_supply": 106,
+      "transaction_count": 257
+    },
+    {
+      "address": "0x90d78cf0fdcc1ca288883b17edfc0dbd0197e36e",
+      "name": "Ronnie Stanley (Blueprint)",
+      "description": "Blueprint for Ronnie Stanley (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Ronnie_Stanley_bp.png",
+      "total_supply": 61,
+      "transaction_count": 516
+    },
+    {
+      "address": "0x35a03f8bb63f02ad03c0aaeb589d44541504064d",
+      "name": "Greg Rousseau",
+      "description": "DE for the Bills",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Greg_Rousseau.png",
+      "total_supply": 68,
+      "transaction_count": 428
+    },
+    {
+      "address": "0x176dd8a2a6536458fb52134211370bcf62e3c9ae",
+      "name": "Odell Beckham Jr",
+      "description": "WR for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Odell_Beckham_Jr.png",
+      "total_supply": 453,
+      "transaction_count": 1007
+    },
+    {
+      "address": "0x47712fa84886306dc8421a83f6798ec5a1b01a4e",
+      "name": "Derek Carr (Blueprint)",
+      "description": "Blueprint for Derek Carr (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Derek_Carr_bp.png",
+      "total_supply": 729,
+      "transaction_count": 1427
+    },
+    {
+      "address": "0x78365781afd992b749dd3944510f4b582422c9c9",
+      "name": "Creed Humphrey (Blueprint)",
+      "description": "Blueprint for Creed Humphrey (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Creed_Humphrey_bp.png",
+      "total_supply": 98,
+      "transaction_count": 232
+    },
+    {
+      "address": "0x9fac009a5945e976e0956f783b9fd0ce3690e354",
+      "name": "Stephon Gilmore (Blueprint)",
+      "description": "Blueprint for Stephon Gilmore (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Stephon_Gilmore_bp.png",
+      "total_supply": 41,
+      "transaction_count": 244
+    },
+    {
+      "address": "0x81c5be343ca5f70aaf3434635135dc6e31f76867",
+      "name": "Jason Myers",
+      "description": "K for the Seahawks",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Jason_Myers.png",
+      "total_supply": 1858,
+      "transaction_count": 3090
+    },
+    {
+      "address": "0xd6410cf27c33e2eedea2e5c66a415385c5f6be02",
+      "name": "Matt Milano (Blueprint)",
+      "description": "Blueprint for Matt Milano (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Matt_Milano_bp.png",
+      "total_supply": 101,
+      "transaction_count": 257
+    },
+    {
+      "address": "0xf9d933efd03e14feca3f2528bff30387c5b886de",
+      "name": "David Long Jr (Blueprint)",
+      "description": "Blueprint for David Long Jr (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/David_Long_Jr_bp.png",
+      "total_supply": 690,
+      "transaction_count": 1572
+    },
+    {
+      "address": "0xdc2e8b449341682150c6adbe17ca4befae9beb17",
+      "name": "Drue Tranquill (Blueprint)",
+      "description": "Blueprint for Drue Tranquill (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Drue_Tranquill_bp.png",
+      "total_supply": 722,
+      "transaction_count": 1483
+    },
+    {
+      "address": "0x19a2e7bd344650f350622079742faa43410ab196",
+      "name": "Dalton Kincaid",
+      "description": "TE for the Bills",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Dalton_Kincaid.png",
+      "total_supply": 3047,
+      "transaction_count": 5488
+    },
+    {
+      "address": "0x70f501862556582402b72d8ecc419a08573fe658",
+      "name": "Nick Bosa",
+      "description": "NFL 2022 - Defensive Player of the Year",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Nick_Bosa.png",
+      "total_supply": 50,
+      "transaction_count": 296
+    },
+    {
+      "address": "0x92b7cf2542a649538e9015ed9d1f596995dd4089",
+      "name": "Dexter Lawrence II (Blueprint)",
+      "description": "Blueprint for Dexter Lawrence II (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Dexter_Lawrence_II_bp.png",
+      "total_supply": 95,
+      "transaction_count": 174
+    },
+    {
+      "address": "0xbbbb6867bae0e39cc630797c877b9f8f5f2547f4",
+      "name": "Brandon Aiyuk",
+      "description": "WR for the 49ers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Brandon_Aiyuk.png",
+      "total_supply": 58,
+      "transaction_count": 319
+    },
+    {
+      "address": "0x3e538d15b16732a15ddd6fd9da46dfd81a236c30",
+      "name": "Latavius Murray (Blueprint)",
+      "description": "Blueprint for Latavius Murray (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Latavius_Murray_bp.png",
+      "total_supply": 768,
+      "transaction_count": 1537
+    },
+    {
+      "address": "0x9afa8b70cc2ea752cceab53372022fef4d4eb626",
+      "name": "Evan Engram",
+      "description": "TE for the Jaguars",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Evan_Engram.png",
+      "total_supply": 880,
+      "transaction_count": 1863
+    },
+    {
+      "address": "0xba78a189df7727f55002c25c0961e44b9ae38fea",
+      "name": "Mark Andrews",
+      "description": "TE for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Mark_Andrews.png",
+      "total_supply": 177,
+      "transaction_count": 731
+    },
+    {
+      "address": "0x09bb60fd0e47bc73ff6500f782387d00801c862a",
+      "name": "Christian Watson",
+      "description": "WR for the Packers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Christian_Watson.png",
+      "total_supply": 1873,
+      "transaction_count": 3185
+    },
+    {
+      "address": "0x9c4f3ed1dcebb10229f516db448fc4012f749c7a",
+      "name": "Jawaan Taylor (Blueprint)",
+      "description": "Blueprint for Jawaan Taylor (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jawaan_Taylor_bp.png",
+      "total_supply": 273,
+      "transaction_count": 696
+    },
+    {
+      "address": "0x7089a5c3f8eeb2e75a2ff862b95b064a402bff5f",
+      "name": "Creed Humphrey",
+      "description": "OL for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Creed_Humphrey.png",
+      "total_supply": 214,
+      "transaction_count": 359
+    },
+    {
+      "address": "0x81acab94317646f4295e47469365c2bcd7feb4a2",
+      "name": "Brandin Cooks (Blueprint)",
+      "description": "Blueprint for Brandin Cooks (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Brandin_Cooks_bp.png",
+      "total_supply": 582,
+      "transaction_count": 1601
+    },
+    {
+      "address": "0x02e5f4a3488cf64f84ea7cb5fbf811613a24349c",
+      "name": "Amon-Ra St. Brown",
+      "description": "WR for the Lions",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Amon-Ra_St._Brown.png",
+      "total_supply": 250,
+      "transaction_count": 921
+    },
+    {
+      "address": "0xf2c423d4db24eeaac11f6910724cb96ad90ef6fa",
+      "name": "Zane Gonzalez (Blueprint)",
+      "description": "Blueprint for Zane Gonzalez (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Zane_Gonzalez_bp.png",
+      "total_supply": 811,
+      "transaction_count": 1434
+    },
+    {
+      "address": "0xac33d7d5fbe212384fdebe5c1d4a7ae4fedbf359",
+      "name": "Talanoa Hufanga (Blueprint)",
+      "description": "Blueprint for Talanoa Hufanga (Kickoff2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Talanoa_Hufanga_bp.png",
+      "total_supply": 105,
+      "transaction_count": 242
+    },
+    {
+      "address": "0x87f7dd8f5b9f90cd3dd084369492d5aa294cd463",
+      "name": "Grant Delpit",
+      "description": "SS for the Browns",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Grant_Delpit.png",
+      "total_supply": 920,
+      "transaction_count": 2555
+    },
+    {
+      "address": "0xcf7dbb98712bf4403f1e36b56d05b43b692493b2",
+      "name": "Foyesade Oluokun",
+      "description": "LB for the Jaguars",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Foyesade_Oluokun.png",
+      "total_supply": 250,
+      "transaction_count": 1070
+    },
+    {
+      "address": "0x137ce17233dff3a6b9aeb20b043c4891e217732b",
+      "name": "Orlando Brown",
+      "description": "OL for the Bengals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Orlando_Brown.png",
+      "total_supply": 180,
+      "transaction_count": 566
+    },
+    {
+      "address": "0xb98c193f3f575ffa4797404e45e2237633d2354d",
+      "name": "Ronnie Stanley",
+      "description": "OL for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Ronnie_Stanley.png",
+      "total_supply": 260,
+      "transaction_count": 515
+    },
+    {
+      "address": "0x9148f2c3944ff4206ce97a77fc8fa1111b64a37f",
+      "name": "Matt Milano",
+      "description": "LB for the Bills",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Matt_Milano_luminous.png",
+      "total_supply": 28,
+      "transaction_count": 61
+    },
+    {
+      "address": "0x9e64dc4b96e7e772257745593a10fca543e7aebe",
+      "name": "Jalen Carter",
+      "description": "DT for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Jalen_Carter.png",
+      "total_supply": 946,
+      "transaction_count": 2241
+    },
+    {
+      "address": "0xf6313f7615385864c2ee08e1378cdb62904776aa",
+      "name": "Christian Gonzalez",
+      "description": "CB for the Patriots",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Christian_Gonzalez.png",
+      "total_supply": 919,
+      "transaction_count": 2355
+    },
+    {
+      "address": "0x332e80c049669cb7e20b8aebfe43ba5f23ebd74a",
+      "name": "Jaxon Smith-Njigba",
+      "description": "WR for the Seahawks",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Jaxon_Smith-Njigba.png",
+      "total_supply": 3083,
+      "transaction_count": 5212
+    },
+    {
+      "address": "0xe227a61f955f0bebeaa632f611bd1b48611b6a07",
+      "name": "Patrick Peterson",
+      "description": "CB for the Vikings",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Patrick_Peterson.png",
+      "total_supply": 846,
+      "transaction_count": 2008
+    },
+    {
+      "address": "0xcdf3f1e1404fbfce3850cb35318109e1af4cdc05",
+      "name": "Will Anderson Jr",
+      "description": "LB for the Texans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Will_Anderson_Jr.png",
+      "total_supply": 203,
+      "transaction_count": 982
+    },
+    {
+      "address": "0x6d94cf379e443a77257043fc16de7720f949634e",
+      "name": "Ben Powers",
+      "description": "OL for the Broncos",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Ben_Powers.png",
+      "total_supply": 1194,
+      "transaction_count": 2200
+    },
+    {
+      "address": "0x2db7c01494e927de065842f2cb507482c682a586",
+      "name": "Colby Parkinson",
+      "description": "TE for the Seahawks",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Colby_Parkinson.png",
+      "total_supply": 191,
+      "transaction_count": 379
+    },
+    {
+      "address": "0x6e4cbe6d2146d473b6a00a423cf8904dab0ad376",
+      "name": "Caden Sterns",
+      "description": "FS for the Broncos",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Caden_Sterns.png",
+      "total_supply": 304,
+      "transaction_count": 669
+    },
+    {
+      "address": "0x0075dfa591b23336f13c42a3dd70cbe23b9329ca",
+      "name": "Trevis Gipson",
+      "description": "DE for the Bears",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Trevis_Gipson.png",
+      "total_supply": 301,
+      "transaction_count": 538
+    },
+    {
+      "address": "0xe9f7e73c7e052490a772077cf10ee5fa54abd40a",
+      "name": "Justin Fields",
+      "description": "QB for the Bears",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Justin_Fields.png",
+      "total_supply": 650,
+      "transaction_count": 1396
+    },
+    {
+      "address": "0x544eed36618e5ac4d98e3b3af54010dd6845517d",
+      "name": "Nolan Smith",
+      "description": "LB for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Nolan_Smith.png",
+      "total_supply": 3066,
+      "transaction_count": 5556
+    },
+    {
+      "address": "0x50dc046dec925db6c78b3d339d5148d2d50543f0",
+      "name": "Mazi Smith",
+      "description": "DT for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Mazi_Smith.png",
+      "total_supply": 2960,
+      "transaction_count": 5364
+    },
+    {
+      "address": "0xfefe183a32e7fa5d7eb2b267d71c545327c1c6d7",
+      "name": "Stephon Gilmore",
+      "description": "CB for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Stephon_Gilmore.png",
+      "total_supply": 249,
+      "transaction_count": 877
+    },
+    {
+      "address": "0xd6039b77ca009c1281a3bae3d005c1773739ea2d",
+      "name": "Roquan Smith",
+      "description": "LB for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Roquan_Smith.png",
+      "total_supply": 180,
+      "transaction_count": 777
+    },
+    {
+      "address": "0x3ffbfa5dd730b200a2f3b883df1b22ee1faf3438",
+      "name": "Minkah Fitzpatrick",
+      "description": "FS for the Steelers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Minkah_Fitzpatrick.png",
+      "total_supply": 179,
+      "transaction_count": 1137
+    },
+    {
+      "address": "0x10fea429143bc3f69848bd7ad55455d24324c0a4",
+      "name": "Kevin Byard",
+      "description": "FS for the Titans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Kevin_Byard.png",
+      "total_supply": 120,
+      "transaction_count": 724
+    },
+    {
+      "address": "0xb23f0c255990bc8d9fbb04cf1154e3b6b34bf2af",
+      "name": "Joe Burrow",
+      "description": "QB for the Bengals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Joe_Burrow.png",
+      "total_supply": 876,
+      "transaction_count": 2088
+    },
+    {
+      "address": "0x5e2ec12aafd78fb4d10a42b415c72ce499deb21e",
+      "name": "Sauce Gardner",
+      "description": "NFL 2022 - Defensive Rookie of the Year",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Sauce_Gardner.png",
+      "total_supply": 100,
+      "transaction_count": 424
+    },
+    {
+      "address": "0xf5e85e284fc2a706245234a8158efc47a76f4fb9",
+      "name": "Frankie Luvu",
+      "description": "LB for the Panthers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Frankie_Luvu.png",
+      "total_supply": 1846,
+      "transaction_count": 3284
+    },
+    {
+      "address": "0x65486624fabd9b77e89dffe33e67cb688c30daf0",
+      "name": "C.J. Gardner-Johnson",
+      "description": "SS for the Lions",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/C.J._Gardner-Johnson.png",
+      "total_supply": 181,
+      "transaction_count": 835
+    },
+    {
+      "address": "0x41c20d99a3a5f43ddf2d2270df76e69d99a822b3",
+      "name": "Mike Evans",
+      "description": "WR for the Buccaneers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Mike_Evans.png",
+      "total_supply": 883,
+      "transaction_count": 2083
+    },
+    {
+      "address": "0x2c1ca15755f97a07f15bbcbeccaefe99861461bf",
+      "name": "Darius Slay Jr",
+      "description": "CB for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Darius_Slay_Jr.png",
+      "total_supply": 32,
+      "transaction_count": 132
+    },
+    {
+      "address": "0xd073fc559b3c4a292fb7054ae15a2a7850bb4fde",
+      "name": "Cameron Jordan",
+      "description": "DE for the Saints",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Cameron_Jordan.png",
+      "total_supply": 176,
+      "transaction_count": 697
+    },
+    {
+      "address": "0x941c051ee40203533f06c8e5ec268306410af65a",
+      "name": "Aaron Rodgers",
+      "description": "QB for the Jets",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Aaron_Rodgers.png",
+      "total_supply": 50,
+      "transaction_count": 254
+    },
+    {
+      "address": "0x6dbfa65a9baffd3144a820df7ac9580368c48841",
+      "name": "Justin Jefferson",
+      "description": "NFL 2022 - Offensive Player of the Year",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Justin_Jefferson.png",
+      "total_supply": 50,
+      "transaction_count": 235
+    },
+    {
+      "address": "0x7b974c19169645cc509a655f10f2c0128619bd83",
+      "name": "Dalvin Tomlinson (Blueprint)",
+      "description": "Blueprint for Dalvin Tomlinson (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Dalvin_Tomlinson_bp.png",
+      "total_supply": 789,
+      "transaction_count": 1509
+    },
+    {
+      "address": "0x18d86b78db615416081390c32feea2bfe9ab4b18",
+      "name": "Alvin Kamara",
+      "description": "RB for the Saints",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Alvin_Kamara.png",
+      "total_supply": 20,
+      "transaction_count": 177
+    },
+    {
+      "address": "0xa9b52e40b8d2e8da9301753a2df58e4af4ea9f90",
+      "name": "Tremaine Edmunds",
+      "description": "LB for the Bears",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Tremaine_Edmunds.png",
+      "total_supply": 451,
+      "transaction_count": 1106
+    },
+    {
+      "address": "0x9d77483aebec03da5a8f20323ead8655d23be62e",
+      "name": "Tyreek Hill",
+      "description": "WR for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Tyreek_Hill.png",
+      "total_supply": 117,
+      "transaction_count": 639
+    },
+    {
+      "address": "0x1f168adaf8f6ad551b743ee6a293fdf63eab7e9e",
+      "name": "Garrett Wilson",
+      "description": "NFL 2022 - Offensive Rookie of the Year",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Garrett_Wilson.png",
+      "total_supply": 100,
+      "transaction_count": 579
+    },
+    {
+      "address": "0xbd5eba02b4f7124953a39a5f76ed964736e523d9",
+      "name": "D.J. Moore",
+      "description": "WR for the Bears",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/D.J._Moore_luminous.png",
+      "total_supply": 49,
+      "transaction_count": 164
+    },
+    {
+      "address": "0xfe9f91f2682a3e51b315feaff1bda5e5b334f505",
+      "name": "Darren Waller",
+      "description": "TE for the Giants",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Darren_Waller.png",
+      "total_supply": 180,
+      "transaction_count": 488
+    },
+    {
+      "address": "0xa757f92b3d5997af38dd8fa63b5779ade41aef2c",
+      "name": "Devin Duvernay",
+      "description": "WR for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Devin_Duvernay.png",
+      "total_supply": 184,
+      "transaction_count": 387
+    },
+    {
+      "address": "0xce7f075886176b55d631cb194af753aa9e19fc23",
+      "name": "Marcus Davenport (Blueprint)",
+      "description": "Blueprint for Marcus Davenport (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Marcus_Davenport_bp.png",
+      "total_supply": 250,
+      "transaction_count": 737
+    },
+    {
+      "address": "0x9070ae586c07cc36c6ee1823fb35b0df7a977f2f",
+      "name": "Kyzir White",
+      "description": "LB for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Kyzir_White.png",
+      "total_supply": 229,
+      "transaction_count": 618
+    },
+    {
+      "address": "0xd44bbf1c7664b6175c53ead63b3667261f51691d",
+      "name": "Nick Bolton",
+      "description": "LB for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Nick_Bolton.png",
+      "total_supply": 169,
+      "transaction_count": 390
+    },
+    {
+      "address": "0x2983c67ee1054add4d00ebb346e2305526f335af",
+      "name": "Anthony Richardson",
+      "description": "QB for the Colts",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Anthony_Richardson.png",
+      "total_supply": 248,
+      "transaction_count": 1040
+    },
+    {
+      "address": "0x71902db50a0257a8463c485e74ba5f13cd1ce509",
+      "name": "George Kittle",
+      "description": "TE for the 49ers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/George_Kittle.png",
+      "total_supply": 100,
+      "transaction_count": 768
+    },
+    {
+      "address": "0x05dff05150932ab44e9309c43fb9201053d33d35",
+      "name": "Noah Gray",
+      "description": "TE for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Noah_Gray.png",
+      "total_supply": 373,
+      "transaction_count": 746
+    },
+    {
+      "address": "0x22ef238a5720fa8c31e60b76488bd3f549768a65",
+      "name": "Trey Smith",
+      "description": "OL for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Trey_Smith.png",
+      "total_supply": 242,
+      "transaction_count": 360
+    },
+    {
+      "address": "0x3c8e0c57e0e762b41be1fe3d2db02394258bba6f",
+      "name": "Tremaine Edmunds (Blueprint)",
+      "description": "Blueprint for Tremaine Edmunds (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Tremaine_Edmunds_bp.png",
+      "total_supply": 111,
+      "transaction_count": 575
+    },
+    {
+      "address": "0xcb800ae54efeb34def7710f995984df7ebaef756",
+      "name": "Creed Humphrey",
+      "description": "OL for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Creed_Humphrey_luminous.png",
+      "total_supply": 28,
+      "transaction_count": 36
+    },
+    {
+      "address": "0x5decb3a4a83073dd9c95e5fc3fd232bcf141cecd",
+      "name": "Travis Etienne Jr",
+      "description": "RB for the Jaguars",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Travis_Etienne_Jr.png",
+      "total_supply": 211,
+      "transaction_count": 518
+    },
+    {
+      "address": "0xb7669b4748aa4591338a38a8402413ffd4ddb3b3",
+      "name": "Devon Witherspoon",
+      "description": "CB for the Seahawks",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Devon_Witherspoon.png",
+      "total_supply": 237,
+      "transaction_count": 1207
+    },
+    {
+      "address": "0x9cedb5d6d46ba415d055102d9d4231ef38cbe08d",
+      "name": "Isiah Pacheco",
+      "description": "RB for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Isiah_Pacheco.png",
+      "total_supply": 364,
+      "transaction_count": 662
+    },
+    {
+      "address": "0xcc5cf93f760e388eeea140f7b8ea79cf33786342",
+      "name": "C.J. Gardner-Johnson (Blueprint)",
+      "description": "Blueprint for C.J. Gardner-Johnson (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/C.J._Gardner-Johnson_bp.png",
+      "total_supply": 12,
+      "transaction_count": 446
+    },
+    {
+      "address": "0xb777eca626f839da3a524274d57899a4df0176ef",
+      "name": "Shaq Mason (Blueprint)",
+      "description": "Blueprint for Shaq Mason (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Shaq_Mason_bp.png",
+      "total_supply": 34,
+      "transaction_count": 189
+    },
+    {
+      "address": "0xe10aab9a61ac24817c5a61c901ea59647600bc87",
+      "name": "Jonathan Allen",
+      "description": "DT for the Commanders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Jonathan_Allen.png",
+      "total_supply": 160,
+      "transaction_count": 998
+    },
+    {
+      "address": "0x057c67ed61c0acf3eca5bbe832b1fa2aaf75fbc0",
+      "name": "Trent McDuffie",
+      "description": "CB for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Trent_McDuffie.png",
+      "total_supply": 356,
+      "transaction_count": 639
+    },
+    {
+      "address": "0x5ada70eb266d0b715268815b97c7f45ce27d9dde",
+      "name": "Andrew Thomas",
+      "description": "OL for the Giants",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Andrew_Thomas.png",
+      "total_supply": 297,
+      "transaction_count": 516
+    },
+    {
+      "address": "0xf61e36966abc7c600d40e1ae60e53169fba613c1",
+      "name": "Lukas Van Ness",
+      "description": "DE for the Packers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Lukas_Van_Ness.png",
+      "total_supply": 939,
+      "transaction_count": 2049
+    },
+    {
+      "address": "0x6d65011036524a959736295661f6a33b66930125",
+      "name": "Calijah Kancey",
+      "description": "DT for the Buccaneers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Calijah_Kancey.png",
+      "total_supply": 934,
+      "transaction_count": 2199
+    },
+    {
+      "address": "0x013de1f5ca99a16308d2586b56211f86bace306d",
+      "name": "Odell Beckham Jr (Blueprint)",
+      "description": "Blueprint for Odell Beckham Jr (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Odell_Beckham_Jr_bp.png",
+      "total_supply": 125,
+      "transaction_count": 549
+    },
+    {
+      "address": "0x98e884757e7706c7074fe3a49d7c264e97a74d0e",
+      "name": "Anton Harrison",
+      "description": "OL for the Jaguars",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Anton_Harrison.png",
+      "total_supply": 3004,
+      "transaction_count": 5242
+    },
+    {
+      "address": "0x369fc1731ea040ba76e4f7f912240d118149d849",
+      "name": "Patrick Jones II",
+      "description": "DE for the Vikings",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Patrick_Jones_II.png",
+      "total_supply": 291,
+      "transaction_count": 543
+    },
+    {
+      "address": "0x895fce4866080ea4a101b9f9ecc03ee1ab27e1e8",
+      "name": "Jessie Bates III (Blueprint)",
+      "description": "Blueprint for Jessie Bates III (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jessie_Bates_III_bp.png",
+      "total_supply": 44,
+      "transaction_count": 152
+    },
+    {
+      "address": "0x3eedd17d13ad85706a3638bb1cd3235fff978cd4",
+      "name": "Shaq Mason",
+      "description": "OL for the Texans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Shaq_Mason_luminous.png",
+      "total_supply": 21,
+      "transaction_count": 83
+    },
+    {
+      "address": "0x951845cb5ff45ebf261f34ee7c4c4f908f8c0728",
+      "name": "Derrick Nnadi",
+      "description": "DT for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Derrick_Nnadi.png",
+      "total_supply": 211,
+      "transaction_count": 414
+    },
+    {
+      "address": "0x054274496c40a8feca39c5ade773861190477a7d",
+      "name": "Miles Sanders",
+      "description": "RB for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Miles_Sanders.png",
+      "total_supply": 147,
+      "transaction_count": 414
+    },
+    {
+      "address": "0x5dea95a5a6cf1c4d486993b0d8e54f176fb13988",
+      "name": "CJ Stroud",
+      "description": "QB for the Texans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/CJ_Stroud.png",
+      "total_supply": 205,
+      "transaction_count": 1047
+    },
+    {
+      "address": "0xf69c86814da8c8875093b6229b76f1dde944e993",
+      "name": "Landon Dickerson",
+      "description": "OL for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Landon_Dickerson.png",
+      "total_supply": 293,
+      "transaction_count": 408
+    },
+    {
+      "address": "0x56fd414221c9cae4d79941d9b616525247da8772",
+      "name": "Josh Jacobs",
+      "description": "RB for the Raiders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Josh_Jacobs.png",
+      "total_supply": 188,
+      "transaction_count": 762
+    },
+    {
+      "address": "0x1b844e61e0502afd9264f769ca9df95474cc29f0",
+      "name": "David Montgomery (Blueprint)",
+      "description": "Blueprint for David Montgomery (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/David_Montgomery_bp.png",
+      "total_supply": 796,
+      "transaction_count": 1499
+    },
+    {
+      "address": "0x6425fdf604b8a614e289166969245c3f71a9f050",
+      "name": "Jack Stoll",
+      "description": "TE for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Jack_Stoll.png",
+      "total_supply": 384,
+      "transaction_count": 641
+    },
+    {
+      "address": "0xdbdd1e2f473567193e53874e7b0929afe4e94047",
+      "name": "Darren Waller (Blueprint)",
+      "description": "Blueprint for Darren Waller (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Darren_Waller_bp.png",
+      "total_supply": 32,
+      "transaction_count": 301
+    },
+    {
+      "address": "0xbe749a4daea1800116cbc8e36fc1906f90bfff65",
+      "name": "Jimmy Garoppolo (Blueprint)",
+      "description": "Blueprint for Jimmy Garoppolo (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jimmy_Garoppolo_bp.png",
+      "total_supply": 763,
+      "transaction_count": 1413
+    },
+    {
+      "address": "0x3436a542e54d79292e969d70059e29db5035983b",
+      "name": "Calais Campbell",
+      "description": "DE for the Falcons",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Calais_Campbell_luminous.png",
+      "total_supply": 66,
+      "transaction_count": 309
+    },
+    {
+      "address": "0x3dbfa9e670645da379cc2149b49a792b126990e9",
+      "name": "Stefon Diggs",
+      "description": "WR for the Bills",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Stefon_Diggs.png",
+      "total_supply": 203,
+      "transaction_count": 814
+    },
+    {
+      "address": "0xbbd33dea2894c6c267d4a40b2b522eceff44b2e6",
+      "name": "Terrell Edmunds (Blueprint)",
+      "description": "Blueprint for Terrell Edmunds (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Terrell_Edmunds_bp.png",
+      "total_supply": 704,
+      "transaction_count": 1617
+    },
+    {
+      "address": "0xf4121c72ff1e0f6d5538a3c667e241edfe0da4af",
+      "name": "Dak Prescott",
+      "description": "QB for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/5/Dak_Prescott.png",
+      "total_supply": 100,
+      "transaction_count": 489
+    },
+    {
+      "address": "0x3104b3ef427ceee32399a35953a889bd0c05fd8e",
+      "name": "Josiah Scott",
+      "description": "CB for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Josiah_Scott.png",
+      "total_supply": 347,
+      "transaction_count": 531
+    },
+    {
+      "address": "0xb57dac8e907171eb736eb1240b81aee6d39ae27b",
+      "name": "Justin Reid",
+      "description": "FS for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Justin_Reid.png",
+      "total_supply": 134,
+      "transaction_count": 724
+    },
+    {
+      "address": "0xf6f7b2a0480c110f3a633ab79b8ea987a8e0af07",
+      "name": "Calais Campbell (Blueprint)",
+      "description": "Blueprint for Calais Campbell (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Calais_Campbell_bp.png",
+      "total_supply": 38,
+      "transaction_count": 261
+    },
+    {
+      "address": "0xdda5b13e8e9b51324745274cfdd889d03e5249e5",
+      "name": "Jessie Bates III",
+      "description": "FS for the Falcons",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jessie_Bates_III.png",
+      "total_supply": 245,
+      "transaction_count": 901
+    },
+    {
+      "address": "0xd301d419f9073fd27bc5c5cf143bfc6c188f087b",
+      "name": "Justin Madubuike",
+      "description": "DT for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Justin_Madubuike.png",
+      "total_supply": 153,
+      "transaction_count": 311
+    },
+    {
+      "address": "0xaf9afebd461292d7150bc3c3c622b26879426256",
+      "name": "Zach Pascal",
+      "description": "WR for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Zach_Pascal.png",
+      "total_supply": 233,
+      "transaction_count": 393
+    },
+    {
+      "address": "0x11de60a89718ce5c520d27092a9e1515d8ff56e5",
+      "name": "Ernest Jones",
+      "description": "LB for the Rams",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Ernest_Jones.png",
+      "total_supply": 177,
+      "transaction_count": 300
+    },
+    {
+      "address": "0x372354c9958ee99fee0277b1d9fdbc112f956c7c",
+      "name": "Patrick Johnson",
+      "description": "DE for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Patrick_Johnson.png",
+      "total_supply": 363,
+      "transaction_count": 537
+    },
+    {
+      "address": "0xb8c041dbe8475f7327c5af4a6abaa3783c6847d5",
+      "name": "Marquez Valdes-Scantling",
+      "description": "WR for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Marquez_Valdes-Scantling.png",
+      "total_supply": 196,
+      "transaction_count": 361
+    },
+    {
+      "address": "0x1a522ecea0edf6f65c9aaeb44176a8032a6f6ae2",
+      "name": "Willie Gay",
+      "description": "LB for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Willie_Gay.png",
+      "total_supply": 190,
+      "transaction_count": 363
+    },
+    {
+      "address": "0xaa8901220805c8f6790d4d12f7f6dcf55c0f3c22",
+      "name": "George Karlaftis",
+      "description": "DE for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/George_Karlaftis.png",
+      "total_supply": 374,
+      "transaction_count": 631
+    },
+    {
+      "address": "0x102e4145a9ec0f012e3acc6c4f9691ca6640b6dc",
+      "name": "Orlando Brown (Blueprint)",
+      "description": "Blueprint for Orlando Brown (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Orlando_Brown_bp.png",
+      "total_supply": 17,
+      "transaction_count": 380
+    },
+    {
+      "address": "0x2b3a752285166c61daac45bd5a5032ef37601525",
+      "name": "Lamar Jackson",
+      "description": "QB for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Lamar_Jackson_luminous.png",
+      "total_supply": 26,
+      "transaction_count": 39
+    },
+    {
+      "address": "0xe9d44ad5e1a2a4b760a584b552c59880cf6227bf",
+      "name": "Jakobi Meyers (Blueprint)",
+      "description": "Blueprint for Jakobi Meyers (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Jakobi_Meyers_bp.png",
+      "total_supply": 208,
+      "transaction_count": 769
+    },
+    {
+      "address": "0xebf719708556c139ab06b55e99d24b8745108bcd",
+      "name": "Devin Singletary",
+      "description": "RB for the Bills",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Devin_Singletary.png",
+      "total_supply": 38,
+      "transaction_count": 118
+    },
+    {
+      "address": "0x6b5f099450d08cc5ca58363712a9acf2c1e9cccf",
+      "name": "Cameron Jordan",
+      "description": "In Week 17, Cam Jordan stunned his opponents by landing 5 tackles, 3 sacks, and forcing a fumble.",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Cameron_Jordan_luminous.png",
+      "total_supply": 24,
+      "transaction_count": 52
+    },
+    {
+      "address": "0xf21f2907d5d3217561f8dd98325d4b31e19f280c",
+      "name": "Kristian Fulton",
+      "description": "CB for the Titans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Kristian_Fulton.png",
+      "total_supply": 186,
+      "transaction_count": 344
+    },
+    {
+      "address": "0xe1764b833034da3bc0670fe95c85985e3086ef18",
+      "name": "Patrick Mahomes II",
+      "description": "QB for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Patrick_Mahomes_II.png",
+      "total_supply": 41,
+      "transaction_count": 155
+    },
+    {
+      "address": "0x4be47831a2b9b8a62589e1a5391d949cea83a7f3",
+      "name": "Jalen Hurts",
+      "description": "QB for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Jalen_Hurts.png",
+      "total_supply": 34,
+      "transaction_count": 82
+    },
+    {
+      "address": "0x8a8367b997b2833225ba365e9ed9064645285fe4",
+      "name": "Za'Darius Smith (Blueprint)",
+      "description": "Blueprint for Za'Darius Smith (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Za'Darius_Smith_bp.png",
+      "total_supply": 192,
+      "transaction_count": 677
+    },
+    {
+      "address": "0x9bdc85c33e7cde28b61b1cc479f0221826388b9a",
+      "name": "Joe Mixon",
+      "description": "RB for the Bengals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Joe_Mixon_luminous.png",
+      "total_supply": 25,
+      "transaction_count": 62
+    },
+    {
+      "address": "0x1de6b34a2c302dd593a8f777adb6f6c3c7558cb5",
+      "name": "Isaac Seumalo",
+      "description": "OL for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Isaac_Seumalo.png",
+      "total_supply": 252,
+      "transaction_count": 383
+    },
+    {
+      "address": "0x92df9fc6be539ba82b127bc168203408b1d754d6",
+      "name": "Denico Autry",
+      "description": "DE for the Titans",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Denico_Autry.png",
+      "total_supply": 35,
+      "transaction_count": 84
+    },
+    {
+      "address": "0xfd20a54068f67ce104a4e7384b63ee377b389c57",
+      "name": "Juan Thornhill",
+      "description": "FS for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Juan_Thornhill.png",
+      "total_supply": 37,
+      "transaction_count": 141
+    },
+    {
+      "address": "0xf91076c1e913bd7538cbb097481e27017cd53b9c",
+      "name": "Khalil Mack",
+      "description": "DE for the Chargers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Khalil_Mack_luminous.png",
+      "total_supply": 27,
+      "transaction_count": 48
+    },
+    {
+      "address": "0xf39d45fc3b9f33ec3b1ac7a13c1783f18d073a07",
+      "name": "Mark Andrews",
+      "description": "TE for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Mark_Andrews_luminous.png",
+      "total_supply": 28,
+      "transaction_count": 79
+    },
+    {
+      "address": "0x7a8460c3f8c620a766fce7cce45c43082fd2972b",
+      "name": "Jonathan Allen",
+      "description": "Jonathan Allen helped the Commanders win in Week 6 with 4 tackles, a sack, a forced fumble, and his first career interception off the Bears' Justin Fields.",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Jonathan_Allen_luminous.png",
+      "total_supply": 14,
+      "transaction_count": 50
+    },
+    {
+      "address": "0x68311e2c5137b83b94c432220a33fac93bd662dc",
+      "name": "Minkah Fitzpatrick",
+      "description": "FS for the Steelers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Minkah_Fitzpatrick_luminous.png",
+      "total_supply": 9,
+      "transaction_count": 41
+    },
+    {
+      "address": "0xbc3feae5f5a4d4967c1a2011194a1341d4ed1904",
+      "name": "Chris Jones",
+      "description": "DT for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Chris_Jones.png",
+      "total_supply": 39,
+      "transaction_count": 104
+    },
+    {
+      "address": "0x6296f121bac0096d0867de91883e4d8dcd8d5f26",
+      "name": "Cameron Brate",
+      "description": "Free Agent",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Cameron_Brate.png",
+      "total_supply": 29,
+      "transaction_count": 59
+    },
+    {
+      "address": "0x934325742e3749aa1deaa7633f3691ddeab1a065",
+      "name": "Preston Smith",
+      "description": "DE for the Packers",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Preston_Smith.png",
+      "total_supply": 33,
+      "transaction_count": 83
+    },
+    {
+      "address": "0xacc747b471fd7c64fd0b4a7775742d2074ac0b96",
+      "name": "Javon Hargrave (Blueprint)",
+      "description": "Blueprint for Javon Hargrave (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Javon_Hargrave_bp.png",
+      "total_supply": 40,
+      "transaction_count": 190
+    },
+    {
+      "address": "0x810c3f25e551b6310574f86d0f6e835c05afa0f5",
+      "name": "Stephon Gilmore",
+      "description": "CB for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Stephon_Gilmore_luminous.png",
+      "total_supply": 16,
+      "transaction_count": 63
+    },
+    {
+      "address": "0xb12b39be6b710fac3eddf92bc88bce08484153a4",
+      "name": "Roquan Smith",
+      "description": "LB for the Ravens",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Roquan_Smith_luminous.png",
+      "total_supply": 25,
+      "transaction_count": 69
+    },
+    {
+      "address": "0x5fb38a2388452d89914dd8d9c564f41677dfec80",
+      "name": "Josh Jacobs",
+      "description": "RB for the Raiders",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Josh_Jacobs_luminous.png",
+      "total_supply": 13,
+      "transaction_count": 35
+    },
+    {
+      "address": "0xa86badafed553e0fb695249e4fc7adbdf4e4ab0a",
+      "name": "Ja'Marr Chase",
+      "description": "WR for the Bengals",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Ja'Marr_Chase.png",
+      "total_supply": 16,
+      "transaction_count": 54
+    },
+    {
+      "address": "0x5dc36997befb2ab37a84ad0b629f603b132875ef",
+      "name": "D.J. Moore (Blueprint)",
+      "description": "Blueprint for D.J. Moore (Shakers2023)",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/D.J._Moore_bp.png",
+      "total_supply": 33,
+      "transaction_count": 237
+    },
+    {
+      "address": "0x8a1fa0c9d27fc82436eaf41e8cbefc6549d1f7d2",
+      "name": "Zack Martin",
+      "description": "Zack Martin cleared the way in Week 8 for the Cowboys to land one of the best rushing attacks of the whole season.",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Zack_Martin_luminous.png",
+      "total_supply": 33,
+      "transaction_count": 71
+    },
+    {
+      "address": "0x4f35668b0757cde9b1d4f4f30e5611b658078559",
+      "name": "Jayron Kearse",
+      "description": "SS for the Cowboys",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Jayron_Kearse.png",
+      "total_supply": 37,
+      "transaction_count": 176
+    },
+    {
+      "address": "0x0f7d5c90c5ab1ece7c9def0d7ba3b9cafaf00831",
+      "name": "Jason Kelce",
+      "description": "OL for the Eagles",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Jason_Kelce.png",
+      "total_supply": 15,
+      "transaction_count": 30
+    },
+    {
+      "address": "0xc6dd2d4e01b1e34afc689dfcbc6cc59505bf143c",
+      "name": "Travis Kelce",
+      "description": "TE for the Chiefs",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/4/Travis_Kelce.png",
+      "total_supply": 16,
+      "transaction_count": 26
+    },
+    {
+      "address": "0xe6da3d30e41c391bfac4bbb1f4bac1bd1cf3e2f5",
+      "name": "Stefon Diggs",
+      "description": "The Titans didn't stand a chance when the Bills nearly shut them out off the back of Stefon Diggs's 12 catches and 148 yards, neetting Buffalo 3 touchdowns.",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/6/Stefon_Diggs_luminous.png",
+      "total_supply": 13,
+      "transaction_count": 14
+    },
+    {
+      "address": "0x82d0c0bcb49b2ef9665e221ab7a0eb87616c9b4f",
+      "name": "Christian Darrisaw",
+      "description": "OL for the Vikings",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/2/Christian_Darrisaw.png",
+      "total_supply": 5,
+      "transaction_count": 6
+    },
+    {
+      "address": "0x6d91e900326cc11ce8d142f687fbb06d76a16a0e",
+      "name": "Jalen Ramsey",
+      "description": "CB for the Rams",
+      "image": "https://gs-assets.mythical.dev/AdminAssets/nflrivals/3/Jalen_Ramsey.png",
+      "total_supply": 2,
+      "transaction_count": 3
+    }
+  ]
+}

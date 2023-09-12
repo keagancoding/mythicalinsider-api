@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import collection from "@/data/collections.json";
+import collection from "@/data/blankos.json";
 
 export async function GET(
   req: Request,
@@ -13,5 +13,5 @@ export async function GET(
     return NextResponse.json("Error fetching item", { status: 500 });
   }
 
-  return NextResponse.json({ item });
+  return NextResponse.json({ data: item });
 }
