@@ -41,7 +41,7 @@ export async function GET(req: Request) {
   const data = await getData();
   const collections = data.filter(
     (item: any) =>
-      !item.name.includes(".") || item.name === "DMarketAssets (DMA)"
+      !item.name.includes(".") || item.name === "DMarketAssets (DMA)" || item.name === "Test ItemType Prod 1 (TEST1)"
   );
   const collectionsWithMetadata = await Promise.all(
     collections.map(async (item: any) => {
