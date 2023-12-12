@@ -5,7 +5,7 @@ import { env } from "process";
 
 const getData = async () => {
   const req = await fetch(
-    "https://explorer.mythical.market/api/nfts?size=500",
+    "https://explorer.mythical.market/api/nfts?size=1000",
     {
       headers: {
         accept: "*/*",
