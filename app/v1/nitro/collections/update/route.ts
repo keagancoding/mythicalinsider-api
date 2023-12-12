@@ -63,6 +63,16 @@ export async function GET(req: Request) {
               holders_count: item.holdersCount,
             };
           }
+        } else {
+          return {
+            address: item.address,
+            name: item.name,
+            description: item.description,
+            image: item.image,
+            total_supply: item.totalSupply,
+            transaction_count: item.transactionCount,
+            holders_count: item.holdersCount,
+          };
         }
       }
     })
