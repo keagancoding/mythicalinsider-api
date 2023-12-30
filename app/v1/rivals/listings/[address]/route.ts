@@ -9,31 +9,44 @@ export async function GET(
 ) {
   const { searchParams } = new URL(req.url);
   const parsedValues = pageLimitSchema.parse(Object.fromEntries(searchParams));
-  const { page = 0 } = parsedValues;
+  const { page = 0, limit = 5, sortby = "timestampISO" } = parsedValues;
   const { address } = params;
   const events = await fetch(
-    `https://explorer.mythical.market/api/contracts/${address}/events?page=${page}&size=100&direction=DESC&sort=timestampISO`
-  );
-  const contract = await fetch(
-    `https://explorer.mythical.market/api/contracts/${address}`
+    `https://explorer.mythical.market/api/contracts/${address}/events?page=${page}&size=${limit}&filter=(%20eventName%20eq%20Transfer%20)`
   );
 
-  if (!events.ok || !contract.ok) {
+  if (!events.ok) {
     return NextResponse.json("Error fetching listings", { status: 500 });
   }
 
   const { data } = await events.json();
-  const { data: contractData } = await contract.json();
-  console.log(contractData);
-  // const filterdEvents = data.filter((event: any) => {
-  //   if (event.eventName === "OrderCreated") {
-  //     if (
-  //       event.parameters.find((e: any) => e.name === "orderType").value === "1"
-  //     ) {
-  //       return event;
-  //     }
-  //   }
-  // });
+  const filterdEvents = data.filter((event: any) => {
+    if (event.to !== "0xed52047a29a47764a06563fa4c84aee51c253eaf") {
+      return {
+        txn: event.transactionHash,
+        to: event.to,
+        from: event.from,
+      };
+    }
+  });
+  console.log(filterdEvents);
+
+  const txnData = await Promise.all(
+    filterdEvents.map(async (event: any) => {
+      const txn = await fetch(
+        `https://explorer.mythical.market/api/transactions/${event.transactionHash}/events`
+      );
+      const {data} = await txn.json();
+      return data;
+    })
+  );
+
+  const filteredTxnData = txnData.filter((event: any) => {
+    if (event.eventName === "OrderCreated") {
+      return event;
+    }
+  });
+  console.log(filteredTxnData);
 
   // const listings = filterdEvents.map((event: any) => {
   //   const flattenedParams = event.parameters.reduce(
@@ -56,5 +69,5 @@ export async function GET(
   //   };
   // });
 
-  return NextResponse.json({ listings: data });
+  return NextResponse.json({ listings: filterdEvents });
 }

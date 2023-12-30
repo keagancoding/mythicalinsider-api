@@ -7,6 +7,7 @@ export const pageLimitSchema = z.object({
   limit: z
     .preprocess((a) => parseInt(z.string().parse(a)), z.number().min(1))
     .optional(),
+  sortby: z.string().optional(),
 });
 
 export const collectionsSearchSchema = z.object({

@@ -80,3 +80,10 @@ export async function GET(req: Request) {
 
   return NextResponse.json("Success", { status: 200 });
 }
+
+
+
+// https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Saquon_Barkley.mp4
+// https://imgproxy.mythical.market/insecure/rs:fill:500:500:1/g:ce/plain/https://gs-assets.mythical.dev/AdminAssets/nflrivals/10/Penei_Sewell.png@jpg
+// https://imgproxy.mythical.market/insecure/rs:fill:500:500:1/g:ce/plain/https://gs-assets.mythical.dev/AdminAssets/nflrivals/11/Deshaun_Watson.png@jpg
+// https://imgproxy.mythical.market/insecure/rs:fill:500:500:1/g:ce/plain/https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Stephon_Gilmore.png@jpg

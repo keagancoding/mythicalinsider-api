@@ -7,10 +7,10 @@ export async function GET(
 ) {
   const { searchParams } = new URL(req.url);
   const parsedValues = pageLimitSchema.parse(Object.fromEntries(searchParams));
-  const { page = 0 } = parsedValues;
+  const { page = 0, limit = 5 } = parsedValues;
   const { address } = params;
   const request = await fetch(
-    `https://explorer.mythical.market/api/contracts/${address}/events?page=${page}&size=100&direction=DESC&sort=timestampISO`
+    `https://explorer.mythical.market/api/contracts/${address}/events?page=${page}&size=${limit*50}&direction=DESC&sort=timestampISO`
   );
 
   if (!request.ok) {
@@ -18,11 +18,12 @@ export async function GET(
   }
 
   const { data } = await request.json();
+  console.log(data)
   const filterdEvents = data.filter((event: any) => {
     if (event.eventName === "OrderExecuted") {
       return event;
     }
   });
 
-  return NextResponse.json({ sales: filterdEvents });
+  return NextResponse.json({ sales: filterdEvents.slice(0, limit) });
 }
