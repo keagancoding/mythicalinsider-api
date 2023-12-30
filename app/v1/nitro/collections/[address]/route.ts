@@ -18,7 +18,6 @@ export async function GET(
   }
 
   const metadata = collection.data[0];
-  console.log(metadata);
 
   const data = {
     address: nft.address,
@@ -29,13 +28,16 @@ export async function GET(
     transaction_count: nft.transactionCount,
     attributes: {
       category: metadata.attributes.find(
-        (attr) => attr.traitType === "category"
+        (attr: { traitType: string }) => attr.traitType === "category"
       ).value,
-      edition: metadata.attributes.find((attr) => attr.traitType === "edition")
-        .value,
-      tier: metadata.attributes.find((attr) => attr.traitType === "tier").value,
+      edition: metadata.attributes.find(
+        (attr: { traitType: string }) => attr.traitType === "edition"
+      ).value,
+      tier: metadata.attributes.find(
+        (attr: { traitType: string }) => attr.traitType === "tier"
+      ).value,
       star_rarity: metadata.attributes.find(
-        (attr) => attr.traitType === "starRarity"
+        (attr: { traitType: string }) => attr.traitType === "starRarity"
       ).value,
     },
   };

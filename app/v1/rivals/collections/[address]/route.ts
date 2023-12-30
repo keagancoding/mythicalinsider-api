@@ -27,17 +27,20 @@ export async function GET(
     total_supply: nft.totalSupply,
     transaction_count: nft.transactionCount,
     attributes: {
-      rarity: metadata.attributes.find((attr) => attr.traitType === "Rarity")
-        .value,
-      program: metadata.attributes.find((attr) => attr.traitType === "Program")
-        .value,
-      position: metadata.attributes.find(
-        (attr) => attr.traitType === "Position"
+      rarity: metadata.attributes.find(
+        (attr: { traitType: string }) => attr.traitType === "Rarity"
       ).value,
-      variant: metadata.attributes.find((attr) => attr.traitType === "Variant")
-        .value,
+      program: metadata.attributes.find(
+        (attr: { traitType: string }) => attr.traitType === "Program"
+      ).value,
+      position: metadata.attributes.find(
+        (attr: { traitType: string }) => attr.traitType === "Position"
+      ).value,
+      variant: metadata.attributes.find(
+        (attr: { traitType: string }) => attr.traitType === "Variant"
+      ).value,
       category: metadata.attributes.find(
-        (attr) => attr.traitType === "Category"
+        (attr: { traitType: string }) => attr.traitType === "Category"
       ).value,
     },
   };
