@@ -36,6 +36,9 @@ export async function GET(
       ).value,
       variant: metadata.attributes.find((attr) => attr.traitType === "Variant")
         .value,
+      category: metadata.attributes.find(
+        (attr) => attr.traitType === "Category"
+      ).value,
     },
   };
 

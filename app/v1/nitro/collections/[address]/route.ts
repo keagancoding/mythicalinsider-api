@@ -1,18 +1,44 @@
 import { NextResponse } from "next/server";
-import collection from "@/data/nitro.json";
 
 export async function GET(
   req: Request,
   { params }: { params: { address: string } }
 ) {
   const { address } = params;
-  const item = collection.collections.find(
-    (item: any) => item.address === address
-  );
+  const nft = await fetch(
+    `https://explorer.mythical.market/api/nfts/${address}`
+  ).then((res) => res.json());
 
-  if (!item) {
+  const collection = await fetch(
+    `https://explorer.mythical.market/api/nfts/${address}/collections`
+  ).then((res) => res.json());
+
+  if (!nft || !collection) {
     return NextResponse.json("Error fetching collection", { status: 500 });
   }
 
-  return NextResponse.json({ data: item });
+  const metadata = collection.data[0];
+  console.log(metadata);
+
+  const data = {
+    address: nft.address,
+    name: nft.name,
+    description: metadata.collectionDescription,
+    image: nft.image,
+    total_supply: nft.totalSupply,
+    transaction_count: nft.transactionCount,
+    attributes: {
+      category: metadata.attributes.find(
+        (attr) => attr.traitType === "category"
+      ).value,
+      edition: metadata.attributes.find((attr) => attr.traitType === "edition")
+        .value,
+      tier: metadata.attributes.find((attr) => attr.traitType === "tier").value,
+      star_rarity: metadata.attributes.find(
+        (attr) => attr.traitType === "starRarity"
+      ).value,
+    },
+  };
+
+  return NextResponse.json({ data });
 }
