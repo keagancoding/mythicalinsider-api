@@ -10,7 +10,7 @@ export async function GET(
   ).then((res) => res.json());
 
   const collection = await fetch(
-    `https://explorer.mythical.market/api/nfts/${address}/collections`
+    `https://explorer.mythical.market/api/nfts/${address}/collections?limit=1`
   ).then((res) => res.json());
 
   if (!nft || !collection) {

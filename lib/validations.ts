@@ -11,7 +11,11 @@ export const pageLimitSchema = z.object({
 });
 
 export const collectionsSearchSchema = z.object({
-  query: z.string(),
+  query: z.string().optional(),
+  name: z.string().optional(),
+  rarity: z.string().optional(),
+  program: z.string().optional(),
+  categroy: z.string().optional(),
   page: pageLimitSchema.shape.page,
   limit: pageLimitSchema.shape.limit,
 });
