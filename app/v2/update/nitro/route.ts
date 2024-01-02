@@ -39,9 +39,19 @@ export async function GET(req: Request) {
   }
 
   const data = await getData();
+  // console.log(data)
   // filter out collections that don't have a period in the name
   const collections = data.filter((item: any) => {
-    return item.name && item.name.includes(".");
+    if (item.name) {
+      if (!item.name.includes(".")) {
+        if (
+          item.name !== "Test ItemType Prod 1 (TEST1)" &&
+          item.name !== "DMarketAssets (DMA)"
+        ) {
+          return item;
+        }
+      }
+    }
   });
 
   const collectionsWithMetadata = await Promise.all(
@@ -63,29 +73,30 @@ export async function GET(req: Request) {
               total_supply: item.totalSupply,
               transaction_count: item.transactionCount,
               attributes: {
-                rarity:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) => attr.traitType === "Rarity"
-                  )?.value ?? "",
-                program:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) =>
-                      attr.traitType === "Program"
-                  )?.value ?? "",
-                position:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) =>
-                      attr.traitType === "Position"
-                  )?.value ?? "",
-                variant:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) =>
-                      attr.traitType === "Variant"
-                  )?.value ?? "",
                 category:
                   metadata.attributes?.find(
                     (attr: { traitType: string }) =>
-                      attr.traitType === "Category"
+                      attr.traitType.toLowerCase() === "category"
+                  )?.value ?? "",
+                edition:
+                  metadata.attributes?.find(
+                    (attr: { traitType: string }) =>
+                      attr.traitType.toLowerCase() === "edition" ||
+                      attr.traitType === "Edition"
+                  )?.value ?? "",
+                tier:
+                  metadata.attributes?.find(
+                    (attr: { traitType: string }) => attr.traitType === "tier"
+                  )?.value ?? "",
+                star_rarity:
+                  metadata.attributes?.find(
+                    (attr: { traitType: string }) =>
+                      attr.traitType.toLowerCase() === "starrarity"
+                  )?.value ?? "",
+                rarity:
+                  metadata.attributes?.find(
+                    (attr: { traitType: string }) =>
+                      attr.traitType.toLowerCase() === "rarity"
                   )?.value ?? "",
               },
             };
@@ -95,7 +106,7 @@ export async function GET(req: Request) {
     })
   );
 
-  const file = await fs.open("./data/rivals.json", "w");
+  const file = await fs.open("./data/nitro.json", "w");
   await file.write(
     JSON.stringify({
       collections: collectionsWithMetadata.filter((item: any) => item),

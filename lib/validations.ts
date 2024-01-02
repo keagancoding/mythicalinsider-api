@@ -16,6 +16,8 @@ export const collectionsSearchSchema = z.object({
   rarity: z.string().optional(),
   program: z.string().optional(),
   categroy: z.string().optional(),
+  tier: z.string().optional(),
+  edition: z.string().optional(),
   page: pageLimitSchema.shape.page,
   limit: pageLimitSchema.shape.limit,
 });
