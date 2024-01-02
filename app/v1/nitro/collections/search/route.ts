@@ -7,7 +7,7 @@ export async function GET(req: Request) {
   const parsedValues = collectionsSearchSchema.parse(
     Object.fromEntries(searchParams)
   );
-  const { page = 0, limit = 12, query } = parsedValues;
+  const { page = 0, limit = 12, query="" } = parsedValues;
   const collectionData = collection.collections.filter((item) =>
     item.name.toLowerCase().includes(query.toLowerCase())
   );
