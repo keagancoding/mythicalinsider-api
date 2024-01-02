@@ -27,18 +27,31 @@ export async function GET(
     total_supply: nft.totalSupply,
     transaction_count: nft.transactionCount,
     attributes: {
-      category: metadata.attributes.find(
-        (attr: { traitType: string }) => attr.traitType === "category"
-      ).value,
-      edition: metadata.attributes.find(
-        (attr: { traitType: string }) => attr.traitType === "edition"
-      ).value,
-      tier: metadata.attributes.find(
-        (attr: { traitType: string }) => attr.traitType === "tier"
-      ).value,
-      star_rarity: metadata.attributes.find(
-        (attr: { traitType: string }) => attr.traitType === "starRarity"
-      ).value,
+      category:
+        metadata.attributes?.find(
+          (attr: { traitType: string }) =>
+            attr.traitType.toLowerCase() === "category"
+        )?.value ?? "",
+      edition:
+        metadata.attributes?.find(
+          (attr: { traitType: string }) =>
+            attr.traitType.toLowerCase() === "edition" ||
+            attr.traitType === "Edition"
+        )?.value ?? "",
+      tier:
+        metadata.attributes?.find(
+          (attr: { traitType: string }) => attr.traitType === "tier"
+        )?.value ?? "",
+      star_rarity:
+        metadata.attributes?.find(
+          (attr: { traitType: string }) =>
+            attr.traitType.toLowerCase() === "starrarity"
+        )?.value ?? "",
+      rarity:
+        metadata.attributes?.find(
+          (attr: { traitType: string }) =>
+            attr.traitType.toLowerCase() === "rarity"
+        )?.value ?? "",
     },
   };
 
