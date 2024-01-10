@@ -3,7 +3,29 @@ import { promises as fs } from "fs";
 import { NextResponse } from "next/server";
 import { env } from "process";
 
-const getData = async () => {
+interface Notify {
+  log: (message: string) => void;
+  complete: (data: any) => void;
+  error: (error: Error | any) => void;
+  close: () => void;
+}
+interface Item {
+  address: string;
+  addressLinks: {
+    href: string;
+    rel: string;
+    display: string;
+  }[];
+  name: string;
+  symbol: string;
+  totalSupply: number;
+  contractType: string;
+  transactionCount: number;
+  lastExecutedTimestampISO: string;
+}
+
+const getData = async (notify: Notify) => {
+  notify.log("Fetching Nitros\n");
   const req = await fetch(
     "https://explorer.mythical.market/api/nfts?size=6000",
     {
@@ -20,27 +42,7 @@ const getData = async () => {
   );
 
   const { data } = await req.json();
-  if (!data) {
-    return null;
-  }
 
-  return data;
-};
-
-export async function GET(req: Request) {
-  const { searchParams } = new URL(req.url);
-  const parsedValues = collectionsUpdateSchema.parse(
-    Object.fromEntries(searchParams)
-  );
-  const { secret } = parsedValues;
-
-  if (secret !== env.UPDATE_SECRET) {
-    return NextResponse.json("Error", { status: 401 });
-  }
-
-  const data = await getData();
-  // console.log(data)
-  // filter out collections that don't have a period in the name
   const collections = data.filter((item: any) => {
     if (item.name) {
       if (!item.name.includes(".")) {
@@ -54,57 +56,64 @@ export async function GET(req: Request) {
     }
   });
 
-  const collectionsWithMetadata = await Promise.all(
-    collections.map(async (item: any) => {
-      if (item.totalSupply > 0) {
-        const req = await fetch(
-          `https://explorer.mythical.market/api/nfts/${item.address}/collections?limit=1`
-        );
+  const collectionsWithMetadata = [];
+  const errors = [];
+  for (let i = 0; i < collections.length; i++) {
+    const item = collections[i];
 
-        if (req.ok) {
-          const data = await req.json();
-          const metadata = data.data[0];
-          if (data) {
-            return {
-              address: item.address,
-              name: item.name,
-              description: metadata.collectionDescription,
-              image: metadata.image,
-              total_supply: item.totalSupply,
-              transaction_count: item.transactionCount,
-              attributes: {
-                category:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) =>
-                      attr.traitType.toLowerCase() === "category"
-                  )?.value ?? "",
-                edition:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) =>
-                      attr.traitType.toLowerCase() === "edition" ||
-                      attr.traitType === "Edition"
-                  )?.value ?? "",
-                tier:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) => attr.traitType === "tier"
-                  )?.value ?? "",
-                star_rarity:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) =>
-                      attr.traitType.toLowerCase() === "starrarity"
-                  )?.value ?? "",
-                rarity:
-                  metadata.attributes?.find(
-                    (attr: { traitType: string }) =>
-                      attr.traitType.toLowerCase() === "rarity"
-                  )?.value ?? "",
-              },
-            };
-          }
+    const progress = Math.round((i / collections.length) * 100);
+    const bar = `[${"█".repeat(progress / 4).padEnd(25, " ")}]`;
+
+    notify.log(`${bar} ${i + 1}/${collections.length} - ${item.name}\n`);
+
+    if (item.totalSupply > 0) {
+      const req = await fetch(
+        `https://explorer.mythical.market/api/nfts/${item.address}/collections?limit=1`
+      );
+
+      if (req.ok) {
+        const data = await req.json();
+        const metadata = data.data[0];
+        if (data) {
+          collectionsWithMetadata.push({
+            address: item.address,
+            name: item.name,
+            description: metadata.collectionDescription,
+            image: metadata.image,
+            total_supply: item.totalSupply,
+            transaction_count: item.transactionCount,
+            attributes: {
+              rarity:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) => attr.traitType === "Rarity"
+                )?.value ?? "",
+              program:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) => attr.traitType === "Program"
+                )?.value ?? "",
+              position:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) => attr.traitType === "Position"
+                )?.value ?? "",
+              variant:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) => attr.traitType === "Variant"
+                )?.value ?? "",
+              category:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) => attr.traitType === "Category"
+                )?.value ?? "",
+            },
+          });
         }
+      } else {
+        notify.error(
+          `Error fetching metadata for ${item.name} - ${item.address}`
+        );
+        errors.push(`${item.name} - ${item.address}`);
       }
-    })
-  );
+    }
+  }
 
   const file = await fs.open("./data/nitro.json", "w");
   await file.write(
@@ -113,15 +122,57 @@ export async function GET(req: Request) {
     })
   );
   await file.close();
+  notify.log("Successfully Updated Nitro");
+  notify.complete(`With ${errors.length} errors \n ${errors.join("\n")}`);
+};
 
-  if (!collections) {
-    return NextResponse.json("Error fetching collections", { status: 500 });
+const getMetadata = async (items: Item[], notify: Notify) => {};
+
+export async function GET(req: Request, res: Response) {
+  const { searchParams } = new URL(req.url);
+  const parsedValues = collectionsUpdateSchema.parse(
+    Object.fromEntries(searchParams)
+  );
+  const { secret } = parsedValues;
+
+  if (secret !== env.UPDATE_SECRET) {
+    return NextResponse.json("Error", { status: 401 });
   }
 
-  return NextResponse.json("Success", { status: 200 });
-}
+  let responseStream = new TransformStream();
+  const writer = responseStream.writable.getWriter();
+  let closed = false;
+  const encoder = new TextEncoder();
 
-// https://gs-assets.mythical.dev/AdminAssets/nflrivals/8/Saquon_Barkley.mp4
-// https://imgproxy.mythical.market/insecure/rs:fill:500:500:1/g:ce/plain/https://gs-assets.mythical.dev/AdminAssets/nflrivals/10/Penei_Sewell.png@jpg
-// https://imgproxy.mythical.market/insecure/rs:fill:500:500:1/g:ce/plain/https://gs-assets.mythical.dev/AdminAssets/nflrivals/11/Deshaun_Watson.png@jpg
-// https://imgproxy.mythical.market/insecure/rs:fill:500:500:1/g:ce/plain/https://gs-assets.mythical.dev/AdminAssets/nflrivals/7/Stephon_Gilmore.png@jpg
+  getData({
+    log: (message) => {
+      writer.write(encoder.encode(message));
+    },
+    complete: (data) => {
+      writer.write(encoder.encode(data));
+      writer.close();
+      closed = true;
+    },
+    error: (error) => {
+      writer.write(encoder.encode(error));
+      writer.close();
+      closed = true;
+    },
+    close: () => {
+      writer.close();
+      closed = true;
+    },
+  });
+
+  // return NextResponse.json("Success", { status: 200 });
+  return new Response(responseStream.readable, {
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/event-stream; charset=utf-8",
+      Connection: "keep-alive",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+      "Content-Encoding": "none",
+    },
+  });
+}

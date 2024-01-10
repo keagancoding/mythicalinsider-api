@@ -25,7 +25,7 @@ interface Item {
 }
 
 const getData = async (notify: Notify) => {
-  notify.log("Fetching Rivals");
+  notify.log("Fetching Rivals\n");
   const req = await fetch(
     "https://explorer.mythical.market/api/nfts?size=6000",
     {
@@ -48,12 +48,12 @@ const getData = async (notify: Notify) => {
   });
 
   const collectionsWithMetadata = [];
+  const errors = [];
   for (let i = 0; i < collections.length; i++) {
     const item = collections[i];
 
-    // generate a progress bar like this [▋              ]
     const progress = Math.round((i / collections.length) * 100);
-    const bar = `[${"▋".repeat(progress)}${" ".repeat(100 - progress)}]`;
+    const bar = `[${"█".repeat(progress / 4).padEnd(25, " ")}]`;
 
     notify.log(`${bar} ${i + 1}/${collections.length} - ${item.name}\n`);
 
@@ -97,6 +97,11 @@ const getData = async (notify: Notify) => {
             },
           });
         }
+      } else {
+        notify.error(
+          `Error fetching metadata for ${item.name} - ${item.address}`
+        );
+        errors.push(`${item.name} - ${item.address}`);
       }
     }
   }
@@ -108,7 +113,8 @@ const getData = async (notify: Notify) => {
     })
   );
   await file.close();
-  notify.complete("Successfully Updated Rivals");
+  notify.log("Successfully Updated Rivals");
+  notify.complete(`With ${errors.length} errors \n ${errors.join("\n")}`);
 };
 
 const getMetadata = async (items: Item[], notify: Notify) => {};
