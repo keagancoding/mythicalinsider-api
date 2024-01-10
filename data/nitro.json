@@ -1,6 +1,21 @@
 {
   "collections": [
     {
+      "address": "0x79eb880fde40cf571048f098b7b921207f6798b2",
+      "name": "TVR Tuscan Speed Six",
+      "description": "Standard Edition Digital Collectible Car for https://NitroNationWorldTour.com",
+      "image": "https://s3-mythical-archive-we30hcw6.s3.eu-west-2.amazonaws.com/190x79eb880fde40cf571048f098b7b921207f6798b2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240109T212212Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604700&X-Amz-Credential=AKIAYROMBHNKBVHSNDCM%2F20240109%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Signature=2a0e4fc66b60bb492e1bbc4c9ecd6c926413c20b393f7fe4a978104e8f8016c2",
+      "total_supply": 800,
+      "transaction_count": 945,
+      "attributes": {
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "2",
+        "rarity": ""
+      }
+    },
+    {
       "address": "0xbe80e404f32364cc70a4198b7b07eab3c5d624d4",
       "name": "Spyker B6 Venator",
       "description": "Standard Edition Digital Collectible Car for https://NitroNationWorldTour.com",
@@ -8,11 +23,11 @@
       "total_supply": 74,
       "transaction_count": 225,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -23,11 +38,11 @@
       "total_supply": 1751,
       "transaction_count": 2232,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -38,26 +53,11 @@
       "total_supply": 122,
       "transaction_count": 293,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
-      }
-    },
-    {
-      "address": "0x79eb880fde40cf571048f098b7b921207f6798b2",
-      "name": "TVR Tuscan Speed Six",
-      "description": "Standard Edition Digital Collectible Car for https://NitroNationWorldTour.com",
-      "image": "https://s3-mythical-archive-we30hcw6.s3.eu-west-2.amazonaws.com/190x79eb880fde40cf571048f098b7b921207f6798b2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240109T212212Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604700&X-Amz-Credential=AKIAYROMBHNKBVHSNDCM%2F20240109%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Signature=2a0e4fc66b60bb492e1bbc4c9ecd6c926413c20b393f7fe4a978104e8f8016c2",
-      "total_supply": 799,
-      "transaction_count": 944,
-      "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -68,11 +68,11 @@
       "total_supply": 41,
       "transaction_count": 134,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -83,11 +83,11 @@
       "total_supply": 20,
       "transaction_count": 67,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -98,11 +98,11 @@
       "total_supply": 47,
       "transaction_count": 402,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -113,11 +113,11 @@
       "total_supply": 74,
       "transaction_count": 258,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -128,11 +128,11 @@
       "total_supply": 13,
       "transaction_count": 51,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -143,11 +143,11 @@
       "total_supply": 23,
       "transaction_count": 172,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -158,11 +158,11 @@
       "total_supply": 193,
       "transaction_count": 601,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "C",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -173,11 +173,11 @@
       "total_supply": 32,
       "transaction_count": 43,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "D",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -188,11 +188,11 @@
       "total_supply": 65,
       "transaction_count": 191,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -203,11 +203,11 @@
       "total_supply": 260,
       "transaction_count": 791,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "D",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -218,11 +218,11 @@
       "total_supply": 37,
       "transaction_count": 167,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -233,11 +233,11 @@
       "total_supply": 7,
       "transaction_count": 22,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -248,11 +248,11 @@
       "total_supply": 66,
       "transaction_count": 175,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -263,11 +263,11 @@
       "total_supply": 435,
       "transaction_count": 606,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Spark Plug",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -278,11 +278,11 @@
       "total_supply": 52,
       "transaction_count": 201,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -293,11 +293,11 @@
       "total_supply": 521,
       "transaction_count": 890,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -308,11 +308,11 @@
       "total_supply": 3,
       "transaction_count": 6,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -323,11 +323,11 @@
       "total_supply": 3,
       "transaction_count": 17,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -338,11 +338,11 @@
       "total_supply": 1,
       "transaction_count": 3,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -353,11 +353,11 @@
       "total_supply": 6,
       "transaction_count": 23,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -368,11 +368,11 @@
       "total_supply": 12,
       "transaction_count": 79,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -383,11 +383,11 @@
       "total_supply": 2,
       "transaction_count": 4,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -398,11 +398,11 @@
       "total_supply": 20,
       "transaction_count": 71,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition Hero",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -413,11 +413,11 @@
       "total_supply": 9,
       "transaction_count": 22,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition Hero",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -428,11 +428,11 @@
       "total_supply": 16,
       "transaction_count": 98,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -443,11 +443,11 @@
       "total_supply": 24,
       "transaction_count": 77,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition Hero",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -458,11 +458,11 @@
       "total_supply": 21,
       "transaction_count": 77,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -473,11 +473,11 @@
       "total_supply": 14,
       "transaction_count": 42,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -488,11 +488,11 @@
       "total_supply": 41,
       "transaction_count": 298,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -503,11 +503,11 @@
       "total_supply": 1376,
       "transaction_count": 1390,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Spark Plug",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -518,11 +518,11 @@
       "total_supply": 221,
       "transaction_count": 692,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "C",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -533,11 +533,11 @@
       "total_supply": 21,
       "transaction_count": 63,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -548,11 +548,11 @@
       "total_supply": 240,
       "transaction_count": 729,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "D",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -563,11 +563,11 @@
       "total_supply": 16,
       "transaction_count": 27,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -578,11 +578,11 @@
       "total_supply": 66,
       "transaction_count": 137,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -593,11 +593,11 @@
       "total_supply": 34,
       "transaction_count": 67,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -608,11 +608,11 @@
       "total_supply": 45,
       "transaction_count": 236,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "B",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -623,11 +623,11 @@
       "total_supply": 183,
       "transaction_count": 543,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "C",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -638,11 +638,11 @@
       "total_supply": 291,
       "transaction_count": 833,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "D",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -653,11 +653,11 @@
       "total_supply": 4,
       "transaction_count": 16,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -668,11 +668,11 @@
       "total_supply": 7,
       "transaction_count": 35,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -683,11 +683,11 @@
       "total_supply": 1,
       "transaction_count": 2,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -698,11 +698,11 @@
       "total_supply": 73,
       "transaction_count": 185,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -713,11 +713,11 @@
       "total_supply": 37,
       "transaction_count": 198,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -728,11 +728,11 @@
       "total_supply": 5,
       "transaction_count": 21,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -743,11 +743,11 @@
       "total_supply": 28,
       "transaction_count": 134,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -757,11 +757,11 @@
       "total_supply": 23,
       "transaction_count": 102,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -772,11 +772,11 @@
       "total_supply": 795,
       "transaction_count": 872,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Spark Plug",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -787,11 +787,11 @@
       "total_supply": 7,
       "transaction_count": 25,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -802,11 +802,11 @@
       "total_supply": 54,
       "transaction_count": 93,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "D",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -817,11 +817,11 @@
       "total_supply": 9,
       "transaction_count": 24,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "B",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -832,11 +832,11 @@
       "total_supply": 9,
       "transaction_count": 18,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -847,11 +847,11 @@
       "total_supply": 61,
       "transaction_count": 130,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -862,11 +862,11 @@
       "total_supply": 13,
       "transaction_count": 58,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -877,11 +877,11 @@
       "total_supply": 17,
       "transaction_count": 36,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -892,11 +892,11 @@
       "total_supply": 16,
       "transaction_count": 58,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -907,11 +907,11 @@
       "total_supply": 40,
       "transaction_count": 139,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -922,11 +922,11 @@
       "total_supply": 10,
       "transaction_count": 16,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -937,11 +937,11 @@
       "total_supply": 65,
       "transaction_count": 134,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -952,11 +952,11 @@
       "total_supply": 284,
       "transaction_count": 830,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -967,11 +967,11 @@
       "total_supply": 2,
       "transaction_count": 11,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -982,11 +982,11 @@
       "total_supply": 36,
       "transaction_count": 270,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -997,11 +997,11 @@
       "total_supply": 16,
       "transaction_count": 136,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -1012,11 +1012,11 @@
       "total_supply": 106,
       "transaction_count": 211,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -1027,11 +1027,11 @@
       "total_supply": 47,
       "transaction_count": 98,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "C",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1042,11 +1042,11 @@
       "total_supply": 135,
       "transaction_count": 287,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "C",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1057,11 +1057,11 @@
       "total_supply": 4,
       "transaction_count": 6,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1072,11 +1072,11 @@
       "total_supply": 1,
       "transaction_count": 2,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1087,11 +1087,11 @@
       "total_supply": 13,
       "transaction_count": 24,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1102,11 +1102,11 @@
       "total_supply": 14,
       "transaction_count": 23,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1117,11 +1117,11 @@
       "total_supply": 22,
       "transaction_count": 78,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1132,11 +1132,11 @@
       "total_supply": 5,
       "transaction_count": 16,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1147,11 +1147,11 @@
       "total_supply": 2,
       "transaction_count": 9,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1162,11 +1162,11 @@
       "total_supply": 7,
       "transaction_count": 14,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1177,11 +1177,11 @@
       "total_supply": 3,
       "transaction_count": 4,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1192,11 +1192,11 @@
       "total_supply": 117,
       "transaction_count": 215,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -1207,11 +1207,11 @@
       "total_supply": 18,
       "transaction_count": 36,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition Hero",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1222,11 +1222,11 @@
       "total_supply": 4,
       "transaction_count": 5,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1237,11 +1237,11 @@
       "total_supply": 53,
       "transaction_count": 209,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1252,11 +1252,11 @@
       "total_supply": 46,
       "transaction_count": 357,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1267,11 +1267,11 @@
       "total_supply": 19,
       "transaction_count": 135,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1281,11 +1281,11 @@
       "total_supply": 6,
       "transaction_count": 10,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -1296,11 +1296,11 @@
       "total_supply": 27,
       "transaction_count": 168,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1311,11 +1311,11 @@
       "total_supply": 64,
       "transaction_count": 351,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1326,11 +1326,11 @@
       "total_supply": 19,
       "transaction_count": 69,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1341,11 +1341,11 @@
       "total_supply": 117,
       "transaction_count": 256,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -1356,11 +1356,11 @@
       "total_supply": 16,
       "transaction_count": 50,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1371,11 +1371,11 @@
       "total_supply": 62,
       "transaction_count": 126,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -1386,11 +1386,11 @@
       "total_supply": 14,
       "transaction_count": 120,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1401,11 +1401,11 @@
       "total_supply": 25,
       "transaction_count": 90,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1416,11 +1416,11 @@
       "total_supply": 26,
       "transaction_count": 121,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1431,11 +1431,11 @@
       "total_supply": 10,
       "transaction_count": 31,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1446,11 +1446,11 @@
       "total_supply": 25,
       "transaction_count": 121,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1461,11 +1461,11 @@
       "total_supply": 126,
       "transaction_count": 218,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -1476,11 +1476,11 @@
       "total_supply": 121,
       "transaction_count": 217,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -1491,11 +1491,11 @@
       "total_supply": 3,
       "transaction_count": 9,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1506,11 +1506,11 @@
       "total_supply": 6,
       "transaction_count": 9,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1521,11 +1521,11 @@
       "total_supply": 10,
       "transaction_count": 20,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition Hero",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1536,11 +1536,11 @@
       "total_supply": 24,
       "transaction_count": 66,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition Hero",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1551,11 +1551,11 @@
       "total_supply": 4,
       "transaction_count": 7,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1566,11 +1566,11 @@
       "total_supply": 6,
       "transaction_count": 8,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1581,11 +1581,11 @@
       "total_supply": 120,
       "transaction_count": 224,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -1596,11 +1596,11 @@
       "total_supply": 15,
       "transaction_count": 23,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1611,11 +1611,11 @@
       "total_supply": 614,
       "transaction_count": 840,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Spark Plug",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -1626,11 +1626,11 @@
       "total_supply": 82,
       "transaction_count": 229,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -1641,11 +1641,11 @@
       "total_supply": 7,
       "transaction_count": 62,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1656,11 +1656,11 @@
       "total_supply": 4,
       "transaction_count": 17,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1671,11 +1671,11 @@
       "total_supply": 50,
       "transaction_count": 202,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1686,11 +1686,11 @@
       "total_supply": 50,
       "transaction_count": 340,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1701,11 +1701,11 @@
       "total_supply": 41,
       "transaction_count": 133,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1716,11 +1716,11 @@
       "total_supply": 8,
       "transaction_count": 25,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1731,11 +1731,11 @@
       "total_supply": 61,
       "transaction_count": 111,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": "Classic"
+        "category": "Classic",
+        "edition": "Series 1",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -1746,11 +1746,11 @@
       "total_supply": 78,
       "transaction_count": 256,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -1761,11 +1761,11 @@
       "total_supply": 7,
       "transaction_count": 9,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1776,11 +1776,11 @@
       "total_supply": 67,
       "transaction_count": 132,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -1791,11 +1791,11 @@
       "total_supply": 123,
       "transaction_count": 262,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -1806,11 +1806,11 @@
       "total_supply": 24,
       "transaction_count": 67,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1821,11 +1821,11 @@
       "total_supply": 72,
       "transaction_count": 126,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -1836,11 +1836,11 @@
       "total_supply": 61,
       "transaction_count": 110,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": "Exotic"
+        "category": "Exotic",
+        "edition": "Series 1",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -1851,11 +1851,11 @@
       "total_supply": 61,
       "transaction_count": 133,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -1866,11 +1866,11 @@
       "total_supply": 21,
       "transaction_count": 68,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -1881,11 +1881,11 @@
       "total_supply": 262,
       "transaction_count": 383,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Spark Plug",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -1896,11 +1896,11 @@
       "total_supply": 2,
       "transaction_count": 3,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "B",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1911,11 +1911,11 @@
       "total_supply": 4,
       "transaction_count": 9,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1926,11 +1926,11 @@
       "total_supply": 15,
       "transaction_count": 41,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -1941,11 +1941,11 @@
       "total_supply": 8,
       "transaction_count": 18,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -1956,11 +1956,11 @@
       "total_supply": 61,
       "transaction_count": 110,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": "Retro"
+        "category": "Retro",
+        "edition": "Series 1",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -1971,11 +1971,11 @@
       "total_supply": 24,
       "transaction_count": 50,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -1986,11 +1986,11 @@
       "total_supply": 2,
       "transaction_count": 4,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -2001,11 +2001,11 @@
       "total_supply": 12,
       "transaction_count": 56,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -2016,11 +2016,11 @@
       "total_supply": 24,
       "transaction_count": 98,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -2031,11 +2031,11 @@
       "total_supply": 6,
       "transaction_count": 10,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -2046,11 +2046,11 @@
       "total_supply": 75,
       "transaction_count": 129,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -2061,11 +2061,11 @@
       "total_supply": 66,
       "transaction_count": 178,
       "attributes": {
-        "rarity": "Mythical",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Mythical"
       }
     },
     {
@@ -2076,11 +2076,11 @@
       "total_supply": 78,
       "transaction_count": 190,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -2091,11 +2091,11 @@
       "total_supply": 79,
       "transaction_count": 139,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -2106,11 +2106,11 @@
       "total_supply": 6,
       "transaction_count": 36,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2121,11 +2121,11 @@
       "total_supply": 3,
       "transaction_count": 6,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2136,11 +2136,11 @@
       "total_supply": 3,
       "transaction_count": 10,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2151,11 +2151,11 @@
       "total_supply": 2,
       "transaction_count": 5,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2166,11 +2166,11 @@
       "total_supply": 21,
       "transaction_count": 137,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2181,11 +2181,11 @@
       "total_supply": 3,
       "transaction_count": 5,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2196,11 +2196,11 @@
       "total_supply": 2,
       "transaction_count": 3,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "B",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2211,11 +2211,11 @@
       "total_supply": 60,
       "transaction_count": 131,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -2226,11 +2226,11 @@
       "total_supply": 4,
       "transaction_count": 7,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2241,11 +2241,11 @@
       "total_supply": 14,
       "transaction_count": 43,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -2256,11 +2256,11 @@
       "total_supply": 436,
       "transaction_count": 551,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Spark Plug",
+        "edition": "",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -2271,11 +2271,11 @@
       "total_supply": 77,
       "transaction_count": 187,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -2286,11 +2286,11 @@
       "total_supply": 2,
       "transaction_count": 4,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2301,11 +2301,11 @@
       "total_supply": 120,
       "transaction_count": 219,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -2316,11 +2316,11 @@
       "total_supply": 64,
       "transaction_count": 124,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -2331,11 +2331,11 @@
       "total_supply": 2,
       "transaction_count": 3,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2346,11 +2346,11 @@
       "total_supply": 2,
       "transaction_count": 7,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2361,11 +2361,11 @@
       "total_supply": 1,
       "transaction_count": 2,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2376,11 +2376,11 @@
       "total_supply": 60,
       "transaction_count": 121,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": "Muscle"
+        "category": "Muscle",
+        "edition": "Series 1",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     },
     {
@@ -2391,11 +2391,11 @@
       "total_supply": 42,
       "transaction_count": 306,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2406,11 +2406,11 @@
       "total_supply": 21,
       "transaction_count": 134,
       "attributes": {
-        "rarity": "Legendary",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Legendary"
       }
     },
     {
@@ -2421,11 +2421,11 @@
       "total_supply": 121,
       "transaction_count": 242,
       "attributes": {
-        "rarity": "Rare",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Rare"
       }
     },
     {
@@ -2436,11 +2436,11 @@
       "total_supply": 83,
       "transaction_count": 284,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -2451,11 +2451,11 @@
       "total_supply": 57,
       "transaction_count": 104,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -2466,11 +2466,11 @@
       "total_supply": 55,
       "transaction_count": 141,
       "attributes": {
-        "rarity": "Common",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Common"
       }
     },
     {
@@ -2481,11 +2481,11 @@
       "total_supply": 2,
       "transaction_count": 3,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Standard Edition",
+        "tier": "S",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -2496,11 +2496,11 @@
       "total_supply": 21,
       "transaction_count": 62,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2511,11 +2511,11 @@
       "total_supply": 79,
       "transaction_count": 144,
       "attributes": {
-        "rarity": "Epic",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "",
+        "edition": "Founders' Edition",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": "Epic"
       }
     },
     {
@@ -2526,11 +2526,11 @@
       "total_supply": 28,
       "transaction_count": 107,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2541,11 +2541,11 @@
       "total_supply": 14,
       "transaction_count": 61,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -2556,11 +2556,11 @@
       "total_supply": 25,
       "transaction_count": 74,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2571,11 +2571,11 @@
       "total_supply": 1,
       "transaction_count": 2,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "D",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2586,11 +2586,11 @@
       "total_supply": 16,
       "transaction_count": 23,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -2601,11 +2601,11 @@
       "total_supply": 20,
       "transaction_count": 39,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2616,11 +2616,11 @@
       "total_supply": 20,
       "transaction_count": 39,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2631,11 +2631,11 @@
       "total_supply": 25,
       "transaction_count": 114,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -2646,11 +2646,11 @@
       "total_supply": 21,
       "transaction_count": 136,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "3",
+        "rarity": ""
       }
     },
     {
@@ -2661,11 +2661,11 @@
       "total_supply": 22,
       "transaction_count": 69,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "A",
+        "star_rarity": "1",
+        "rarity": ""
       }
     },
     {
@@ -2676,11 +2676,11 @@
       "total_supply": 4,
       "transaction_count": 5,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": ""
+        "category": "Car",
+        "edition": "Limited Edition",
+        "tier": "S",
+        "star_rarity": "2",
+        "rarity": ""
       }
     },
     {
@@ -2691,11 +2691,11 @@
       "total_supply": 16,
       "transaction_count": 35,
       "attributes": {
-        "rarity": "",
-        "program": "",
-        "position": "",
-        "variant": "",
-        "category": "Hero"
+        "category": "Hero",
+        "edition": "Series 1",
+        "tier": "",
+        "star_rarity": "",
+        "rarity": ""
       }
     }
   ]

@@ -83,25 +83,30 @@ const getData = async (notify: Notify) => {
             total_supply: item.totalSupply,
             transaction_count: item.transactionCount,
             attributes: {
-              rarity:
-                metadata.attributes?.find(
-                  (attr: { traitType: string }) => attr.traitType === "Rarity"
-                )?.value ?? "",
-              program:
-                metadata.attributes?.find(
-                  (attr: { traitType: string }) => attr.traitType === "Program"
-                )?.value ?? "",
-              position:
-                metadata.attributes?.find(
-                  (attr: { traitType: string }) => attr.traitType === "Position"
-                )?.value ?? "",
-              variant:
-                metadata.attributes?.find(
-                  (attr: { traitType: string }) => attr.traitType === "Variant"
-                )?.value ?? "",
               category:
                 metadata.attributes?.find(
-                  (attr: { traitType: string }) => attr.traitType === "Category"
+                  (attr: { traitType: string }) =>
+                    attr.traitType.toLowerCase() === "category"
+                )?.value ?? "",
+              edition:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) =>
+                    attr.traitType.toLowerCase() === "edition" ||
+                    attr.traitType === "Edition"
+                )?.value ?? "",
+              tier:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) => attr.traitType === "tier"
+                )?.value ?? "",
+              star_rarity:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) =>
+                    attr.traitType.toLowerCase() === "starrarity"
+                )?.value ?? "",
+              rarity:
+                metadata.attributes?.find(
+                  (attr: { traitType: string }) =>
+                    attr.traitType.toLowerCase() === "rarity"
                 )?.value ?? "",
             },
           });
