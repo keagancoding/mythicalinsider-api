@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-[rgb(15,15,15)] min-h-screen">
-      <body className={inter.className}>{children}</body>
+      <pre className={inter.className}>{children}</pre>
     </html>
   );
 }
